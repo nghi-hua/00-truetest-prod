@@ -1,0 +1,8 @@
+{
+    "steps": [
+        "step 1: Navigate to Page home",
+        "step 2: At Page gp product, click on hyperlink object > navigate to Page DMaos-Spinner-Stainless-Ceramic-Colorful dp",
+        "step 3: At Page DMaos-Spinner-Stainless-Ceramic-Colorful dp, click on div object",
+        "step 4: Add visual checkpoint at Page DMaos-Spinner-Stainless-Ceramic-Colorful dp"
+    ]
+}

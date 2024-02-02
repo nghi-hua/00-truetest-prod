@@ -1,0 +1,12 @@
+{
+    "steps": [
+        "step 1: Navigate to Page b",
+        "step 2: At Page b, click on hyperlink new releases > navigate to Page gp new-releases books",
+        "step 3: At Page gp new-releases books, click on hyperlink object > navigate to Page gp product",
+        "step 4: At Page gp product, click on hyperlink next page",
+        "step 5: At Page gp product, click on hyperlink object > navigate to Page Pcs-Flipo-Flip-Kinetic-Satisfying dp",
+        "step 6: At Page Pcs-Flipo-Flip-Kinetic-Satisfying dp, click on input submit add to cart > navigate to Page cart smart-wagon",
+        "step 7: At Page cart smart-wagon, click on hyperlink go to cart > navigate to Page cart",
+        "step 8: Add visual checkpoint at Page cart"
+    ]
+}

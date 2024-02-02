@@ -1,0 +1,32 @@
+{
+    "steps": [
+        "step 1: Navigate to Page gp css order-history ref=oh surl digital",
+        "step 2: At Page gp css order-history ref=oh surl digital, click on hyperlink digital orders > navigate to Page gp your-account order-history",
+        "step 3: At Page gp your-account order-history, click on hyperlink return for refund 2 > navigate to Page digital returns",
+        "step 4: At Page digital returns, click on span object",
+        "step 5: At Page digital returns, click on hyperlink returnreasondropdown 9",
+        "step 6: At Page digital returns, click on input object",
+        "step 7: At Page digital returns, click on hyperlink go to cart > navigate to Page cart",
+        "step 8: At Page cart, click on i object",
+        "step 9: At Page cart, click on input object",
+        "step 10: At Page cart, click on i object",
+        "step 11: At Page cart, click on input object",
+        "step 12: At Page cart, click on i object",
+        "step 13: At Page cart, click on input object",
+        "step 14: At Page cart, click on i object",
+        "step 15: At Page cart, click on input object",
+        "step 16: At Page cart, click on div object",
+        "step 17: At Page cart, click on i object",
+        "step 18: At Page cart, click on input object",
+        "step 19: At Page cart, click on i object",
+        "step 20: At Page cart, click on input object",
+        "step 21: At Page cart, click on input field keywords",
+        "step 22: At Page cart, input on input field keywords",
+        "step 23: At Page cart, click on div object > navigate to Page s",
+        "step 24: At Page s, click on hyperlink object > navigate to Page b",
+        "step 25: At Page b, click on hyperlink object > navigate to Page dp",
+        "step 26: At Page dp, click on button a autoid 13 announce",
+        "step 27: At Page dp, click on button a autoid 17 announce",
+        "step 28: Add visual checkpoint at Page dp"
+    ]
+}
