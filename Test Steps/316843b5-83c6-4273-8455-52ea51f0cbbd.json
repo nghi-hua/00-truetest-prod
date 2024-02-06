@@ -1,0 +1,14 @@
+{
+    "steps": [
+        "step 1: Navigate to Page home",
+        "step 2: At Page home, click on hyperlink sign in > navigate to Page ap signin",
+        "step 3: At Page ap signin, input on input email",
+        "step 4: At Page ap signin, click on input continue",
+        "step 5: At Page ap signin, input on input password",
+        "step 6: At Page ap signin, click on input signinsubmit > navigate to Page ax claim webauthn nudge",
+        "step 7: At Page ax claim webauthn nudge, click on input object > navigate to Page home",
+        "step 8: At Page home, click on hyperlink nav cart > navigate to Page gp cart view html",
+        "step 9: At Page gp cart view html, click on input field keywords > navigate to Page s",
+        "step 10: Add visual checkpoint at Page s"
+    ]
+}

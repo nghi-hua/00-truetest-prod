@@ -1,0 +1,8 @@
+{
+    "steps": [
+        "step 1: Navigate to Page home",
+        "step 2: At Page Hershey-Kisses-Special-Chocolate-Pounds dp, click on button a autoid 11 announce",
+        "step 3: At Page Hershey-Kisses-Special-Chocolate-Pounds dp, click on input submit add to cart > navigate to Page cart smart-wagon",
+        "step 4: Add visual checkpoint at Page cart smart-wagon"
+    ]
+}
