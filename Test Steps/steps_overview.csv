@@ -1,29 +1,29 @@
 Flow ID,Name,Description,Test Steps,Flow Priority
-0,Verify Successful Navigation to page S,Navigate to the home page and access pageS. Perform a series of interactions and verify the successful display of pageS.,"step 1: Navigate to Page home
-step 2: At Page dp ref=vp d cpf-substitute-widget pd, click on hyperlink a autoid 18
-step 3: At Page dp ref=vp d cpf-substitute-widget pd, click on hyperlink a autoid 18
-step 4: At Page dp ref=vp d cpf-substitute-widget pd, click on hyperlink a autoid 18
-step 5: At Page dp ref=vp d cpf-substitute-widget pd, click on input field keywords > navigate to Page s
-step 6: Add visual checkpoint at Page s",High
-1,Verify Successful Navigation to page Cart,Navigate to the home page and add a product to the cart. Proceed to the cart page and verify the successful display of the cart.,"step 1: Navigate to Page home
-step 2: At Page  dp, click on span producttitle
-step 3: At Page  dp, click on input submit add to cart > navigate to Page cart smart-wagon
-step 4: At Page cart smart-wagon, click on hyperlink go to cart > navigate to Page cart
-step 5: Add visual checkpoint at Page cart",Medium
-2,Verify Successful Navigation to page S,Navigate to the home page and sign in. Access the cart view page and verify the successful display of pageS.,"step 1: Navigate to Page home
-step 2: At Page home, click on hyperlink sign in > navigate to Page ap signin
-step 3: At Page ap signin, input on input email
-step 4: At Page ap signin, click on input continue
-step 5: At Page ap signin, input on input password
-step 6: At Page ap signin, click on input signinsubmit > navigate to Page ax claim webauthn nudge
-step 7: At Page ax claim webauthn nudge, click on input object > navigate to Page home
-step 8: At Page home, click on hyperlink nav cart > navigate to Page gp cart view html
-step 9: At Page gp cart view html, click on input field keywords > navigate to Page s
-step 10: Add visual checkpoint at Page s",Trivial
-3,Verify Successful Navigation to page Cart Smart Wagon,Navigate to the Hershey Kisses Special Chocolate Pounds page and add the item to the cart. Verify the successful display of the Smart Wagon cart page.,"step 1: Navigate to Page home
-step 2: At Page Hershey-Kisses-Special-Chocolate-Pounds dp, click on button a autoid 11 announce
-step 3: At Page Hershey-Kisses-Special-Chocolate-Pounds dp, click on input submit add to cart > navigate to Page cart smart-wagon
-step 4: Add visual checkpoint at Page cart smart-wagon",Trivial
-4,Verify Successful Navigation to page Cart Smart Wagon,Navigate to the Hershys Nuggets Dark Chocolate Candy page and add the item to the cart. Verify the successful display of the Smart Wagon cart page.,"step 1: Navigate to Page home
-step 2: At Page Hershys-Nuggets-Dark-Chocolate-Candy dp, click on input submit add to cart > navigate to Page cart smart-wagon
-step 3: Add visual checkpoint at Page cart smart-wagon",Trivial
+1,Verify Page Gp Video Storefront after Navigating and Selecting Fantasy Genre,Navigate to the page Gp Video Offers Intercept and access the Movies section. Proceed to the Kids section in the Video Storefront. Navigate through the Fantasy genre and verify the displayed page Gp Video Storefront.,"step 1: Navigate to https://www.amazon.com/gp/video/offers/intercept
+step 2: Click on link 'Movies'
+step 3: Click on link 'Kids' -> Navigate to page 'gp/video/storefront/*'
+step 4: Click on button 'right-arrow'
+step 5: Click on button 'right-arrow'
+step 6: Click on link 'see-more' -> Navigate to page 'gp/video/browse/*'
+step 7: Click on link 'Fantasy' -> Navigate to page 'gp/video/genre/fantasy/*'
+step 8: Click on button 'right-arrow'
+step 9: Click on button 'right-arrow'
+step 10: Click on button 'right-arrow'
+step 11: Click on button 'right-arrow'
+step 12: Click on button 'right-arrow'
+step 13: Click on link 'Movies' -> Navigate to page 'gp/video/storefront/*'
+step 14: Take full page screenshot as checkpoint",High
+2,Verify Page Gp Video Genre Drama after Navigating and Selecting Drama Genre,Navigate to the page Gp Video Offers Intercept and access the Movies section. Proceed to the Kids section in the Video Storefront. Navigate through the Drama genre and verify the displayed page Gp Video Genre Drama.,"step 1: Navigate to https://www.amazon.com/gp/video/offers/intercept
+step 2: Click on link 'Movies'
+step 3: Click on link 'Kids' -> Navigate to page 'gp/video/storefront/*'
+step 4: Click on button 'right-arrow'
+step 5: Click on button 'right-arrow'
+step 6: Click on button 'right-arrow'
+step 7: Click on button 'right-arrow'
+step 8: Click on button 'right-arrow'
+step 9: Click on button 'right-arrow'
+step 10: Click on button 'left-arrow'
+step 11: Click on button 'right-arrow'
+step 12: Click on button 'right-arrow'
+step 13: Click on link 'Drama' -> Navigate to page 'gp/video/genre/drama/*'
+step 14: Take full page screenshot as checkpoint",Trivial

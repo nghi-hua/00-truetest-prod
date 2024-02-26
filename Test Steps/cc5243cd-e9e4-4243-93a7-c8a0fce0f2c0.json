@@ -1,0 +1,18 @@
+{
+    "steps": [
+        "step 1: Navigate to https://www.amazon.com/gp/video/offers/intercept",
+        "step 2: Click on link 'Movies'",
+        "step 3: Click on link 'Kids' -> Navigate to page 'gp/video/storefront/*'",
+        "step 4: Click on button 'right-arrow'",
+        "step 5: Click on button 'right-arrow'",
+        "step 6: Click on link 'see-more' -> Navigate to page 'gp/video/browse/*'",
+        "step 7: Click on link 'Fantasy' -> Navigate to page 'gp/video/genre/fantasy/*'",
+        "step 8: Click on button 'right-arrow'",
+        "step 9: Click on button 'right-arrow'",
+        "step 10: Click on button 'right-arrow'",
+        "step 11: Click on button 'right-arrow'",
+        "step 12: Click on button 'right-arrow'",
+        "step 13: Click on link 'Movies' -> Navigate to page 'gp/video/storefront/*'",
+        "step 14: Take full page screenshot as checkpoint"
+    ]
+}

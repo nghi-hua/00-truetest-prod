@@ -1,9 +1,0 @@
-{
-    "steps": [
-        "step 1: Navigate to Page home",
-        "step 2: At Page  dp, click on span producttitle",
-        "step 3: At Page  dp, click on input submit add to cart > navigate to Page cart smart-wagon",
-        "step 4: At Page cart smart-wagon, click on hyperlink go to cart > navigate to Page cart",
-        "step 5: Add visual checkpoint at Page cart"
-    ]
-}
