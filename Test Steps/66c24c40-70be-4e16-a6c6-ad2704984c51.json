@@ -1,0 +1,11 @@
+{
+    "steps": [
+        "step 1: Navigate to https://practicesoftwaretesting.com/#/auth/login",
+        "step 2: Login -> Navigate to page '#/auth/register'",
+        "step 3: Login -> Navigate to page '#/auth/login'",
+        "step 4: Login -> Navigate to page '#/account'",
+        "step 5: Click on link 'Home' -> Navigate to page '#'",
+        "step 6: Click on link 'Combination Pliers$14.15' -> Navigate to page '/#/product/01HY2J5RF2ZSXVCZX1CMNFK3D9'",
+        "step 7: Take full page screenshot as checkpoint"
+    ]
+}

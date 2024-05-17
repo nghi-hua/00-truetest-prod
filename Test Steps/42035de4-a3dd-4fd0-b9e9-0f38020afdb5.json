@@ -1,0 +1,14 @@
+{
+    "steps": [
+        "step 1: Navigate to https://practicesoftwaretesting.com/#",
+        "step 2: Click on link 'Pliers$12.01' -> Navigate to page '/#/product/01HY2J5RF4GW7DKRA83Y2WSHTC'",
+        "step 3: Click on link '1' -> Navigate to page '#/checkout'",
+        "step 4: Click on button 'Proceed to checkout'",
+        "step 5: Login",
+        "step 6: Proceed to checkout and input address details",
+        "step 7: Proceed to checkout and select payment method",
+        "step 8: Click on button 'Confirm'",
+        "step 9: Click on button 'Confirm'",
+        "step 10: Click on link 'Home'"
+    ]
+}

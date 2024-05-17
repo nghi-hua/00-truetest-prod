@@ -1,0 +1,22 @@
+{
+    "steps": [
+        "step 1: Navigate to https://practicesoftwaretesting.com/#/checkout",
+        "step 2: Click on link  -> Navigate to page '#'",
+        "step 3: Click on link 'Combination Pliers$14.15' -> Navigate to page '/#/product/01HY24E9M5NZ0YX235MFQQPD48'",
+        "step 4: Click on button 'btn-increase-quantity'",
+        "step 5: Click on link '3' -> Navigate to page '#/checkout'",
+        "step 6: Click on button 'Proceed to checkout'",
+        "step 7: Login -> Navigate to page '#/auth/login'",
+        "step 8: Click on link 'Home' -> Navigate to page '#'",
+        "step 9: Click on link 'Sign in' -> Navigate to page '#/auth/login'",
+        "step 10: Login -> Navigate to page '#/auth/register'",
+        "step 11: Login -> Navigate to page '#/auth/login'",
+        "step 12: Login -> Navigate to page '#/account'",
+        "step 13: Click on link '3' -> Navigate to page '#/checkout'",
+        "step 14: Click on button 'Proceed to checkout'",
+        "step 15: Proceed to checkout and input address details",
+        "step 16: Proceed to checkout and select payment method",
+        "step 17: Click on button 'Confirm'",
+        "step 18: Click on link 'Home'"
+    ]
+}

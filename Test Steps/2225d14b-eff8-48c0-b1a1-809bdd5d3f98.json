@@ -1,0 +1,15 @@
+{
+    "steps": [
+        "step 1: Navigate to https://practicesoftwaretesting.com/#",
+        "step 2: Click on link 'Slip Joint Pliers$9.17' -> Navigate to page '/#/product/01HY24E9MAMQPAN2E731HVMTJC'",
+        "step 3: Click on button 'btn-add-to-cart'",
+        "step 4: Click on link '1' -> Navigate to page '#/checkout'",
+        "step 5: Click on button 'Proceed to checkout'",
+        "step 6: Login",
+        "step 7: Proceed to checkout and input address details",
+        "step 8: Proceed to checkout and select payment method",
+        "step 9: Click on button 'Confirm'",
+        "step 10: Click on button 'Confirm'",
+        "step 11: Click on link 'Home'"
+    ]
+}

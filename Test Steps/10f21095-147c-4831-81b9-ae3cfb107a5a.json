@@ -1,0 +1,18 @@
+{
+    "steps": [
+        "step 1: Navigate to https://practicesoftwaretesting.com/#",
+        "step 2: Click on link 'Long Nose PliersOut of stock$14.24' -> Navigate to page '/#/product/01HY24E9M9ZTJ9AHVBCAZBZ33B'",
+        "step 3: Click on link 'Home' -> Navigate to page '#'",
+        "step 4: Click on link 'Claw Hammer with Shock Reduction Grip$13.41' -> Navigate to page '/#/product/01HY24E9MDK55TQCW102HEAYVT'",
+        "step 5: Click on button 'btn-add-to-cart'",
+        "step 6: Click on div",
+        "step 7: Click on link '1' -> Navigate to page '#/checkout'",
+        "step 8: Click on button 'Proceed to checkout'",
+        "step 9: Login",
+        "step 10: Proceed to checkout and input address details",
+        "step 11: Proceed to checkout and select payment method",
+        "step 12: Click on button 'Confirm'",
+        "step 13: Click on button 'Confirm'",
+        "step 14: Click on link 'Home'"
+    ]
+}

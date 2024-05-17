@@ -1,0 +1,11 @@
+{
+    "steps": [
+        "step 1: Navigate to https://practicesoftwaretesting.com/#",
+        "step 2: Click on link 'Claw Hammer with Shock Reduction Grip$13.41' -> Navigate to page '/#/product/01HY2J5RFCACBTJAWNF23X86YR'",
+        "step 3: Click on button 'btn-add-to-cart'",
+        "step 4: Click on div  -> Navigate to page '#/checkout'",
+        "step 5: Click on button 'Proceed to checkout'",
+        "step 6: Login",
+        "step 7: Click on div"
+    ]
+}
