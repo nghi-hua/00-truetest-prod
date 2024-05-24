@@ -25,8 +25,8 @@ import com.kms.katalon.core.testcase.TestCase as TestCase
 public class TrueTestScripts {
     public static void login() {
         try {
-            WebUI.setText(findTestObject('Object Repository/Page_Login/input_Email address_email'), '')
-            WebUI.setEncryptedText(findTestObject('Object Repository/Page_Login/input_Password_password'), '')
+            WebUI.setText(findTestObject('Object Repository/Page_Login/input_Email address_email'), 'a@g.com')
+            WebUI.setText(findTestObject('Object Repository/Page_Login/input_Password_password'), 'K@talon44')
             WebUI.click(findTestObject('Object Repository/Page_Login/input_Password_btnSubmit'))
         } catch(Exception e) {
             if (e.getCause() instanceof WebElementNotFoundException) {

@@ -14,6 +14,11 @@ public class GlobalVariable {
      */
     public static Object application_domain
      
+    /**
+     * <p></p>
+     */
+    public static Object query_params
+     
 
     static {
         try {
@@ -22,6 +27,7 @@ public class GlobalVariable {
             selectedVariables += TestCaseMain.getParsedValues(RunConfiguration.getOverridingParameters(), selectedVariables)
     
             application_domain = selectedVariables['application_domain']
+            query_params = selectedVariables['query_params']
             
         } catch (Exception e) {
             TestCaseMain.logGlobalVariableError(e)

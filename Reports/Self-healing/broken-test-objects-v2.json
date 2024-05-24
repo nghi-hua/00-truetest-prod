@@ -1,3 +1,14 @@
 {
-  "brokenTestObjects" : [ ]
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/AI-Generated/Page_home/link_clawHammer1148",
+      "brokenLocator": "[data-test\u003d\"product-01HYM8N7WXWMJ9JYA2W2PX23HB\"]",
+      "brokenLocatorMethod": "SMART_LOCATOR",
+      "proposedLocator": "//body/app-root[1]/div[1]/app-overview[1]/div[3]/div[2]/div[1]/a[8]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/AI-Generated/Page_home/link_clawHammer1148_XPATH.png"
+    }
+  ]
 }

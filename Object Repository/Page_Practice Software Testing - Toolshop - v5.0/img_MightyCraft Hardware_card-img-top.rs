@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>img_MightyCraft Hardware_card-img-top</name>
+   <tag></tag>
+   <elementGuidId>28b7b995-2053-4735-a014-7d64c35ed175</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>img.card-img-top</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//img[@alt='Combination Pliers']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>[data-test=&quot;product-01HYMC32N6YC4JTYJJ0XY3NKFJ&quot;]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+      <webElementGuid>7c9e59d0-5aca-4c6d-847b-e0fd72809ed8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>card-img-top</value>
+      <webElementGuid>ba7d4066-7a0d-4e61-8d84-3e91ce29b656</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>alt</name>
+      <type>Main</type>
+      <value>Combination Pliers</value>
+      <webElementGuid>ee975cbc-7eed-40ef-823e-d932fb0d99ab</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>assets/img/products/pliers01.jpeg</value>
+      <webElementGuid>8098970b-d213-4c71-9c11-38c7ccabf99e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/app-root[1]/div[@class=&quot;container&quot;]/app-overview[1]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-9&quot;]/div[@class=&quot;container&quot;]/a[@class=&quot;card&quot;]/div[@class=&quot;card-img-wrapper&quot;]/img[@class=&quot;card-img-top&quot;]</value>
+      <webElementGuid>aa0025c2-608d-480a-a39d-3a295f65090e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:img</name>
+      <type>Main</type>
+      <value>//img[@alt='Combination Pliers']</value>
+      <webElementGuid>4785620a-f40c-4a48-bf27-75abfe9b86f7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/img</value>
+      <webElementGuid>2dde90d3-82c9-4a99-8e0c-696925be0507</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//img[@alt = 'Combination Pliers' and @src = 'assets/img/products/pliers01.jpeg']</value>
+      <webElementGuid>533b6c22-9371-447c-81bc-7529755e689b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
