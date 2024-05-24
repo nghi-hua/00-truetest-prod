@@ -1,0 +1,26 @@
+{
+    "steps": [
+        "step 1: Navigate to https://practicesoftwaretesting.com/#",
+        "step 2: Click on link 'Claw Hammer$11.48' -> Navigate to page '#/product/*'",
+        "step 3: Click on button 'btn-add-to-cart'",
+        "step 4: Click on link '1' -> Navigate to page '#/checkout'",
+        "step 5: Click on button 'Proceed to checkout'",
+        "step 6: Login",
+        "step 7: Click on button 'Proceed to checkout'",
+        "step 8: Click on input field 'address'",
+        "step 9: Enter input value in input field 'address'",
+        "step 10: Click on input field 'city'",
+        "step 11: Enter input value in input field 'city'",
+        "step 12: Click on input field 'state'",
+        "step 13: Enter input value in input field 'state'",
+        "step 14: Click on input field 'country'",
+        "step 15: Enter input value in input field 'country'",
+        "step 16: Click on input field 'postcode'",
+        "step 17: Enter input value in input field 'postcode'",
+        "step 18: Click on button 'Proceed to checkout'",
+        "step 19: Click on select 'payment-method'",
+        "step 20: Click on button 'Confirm'",
+        "step 21: Click on button 'Confirm'",
+        "step 22: Click on link 'Home'"
+    ]
+}
