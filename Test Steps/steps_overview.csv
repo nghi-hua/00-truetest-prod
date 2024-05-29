@@ -1,8 +1,8 @@
 Flow ID,Name,Description,Test Steps,Flow Priority
-1,Verify Successful Checkout Process for Claw Hammer1148,"Navigate to the home page and add Claw Hammer1148 to the cart. Proceed to checkout, provide address details, and select payment method. Confirm the order and verify successful checkout.","Step 1: Navigate to https://practicesoftwaretesting.com/#
-Step 2: Click on link 'Claw Hammer$11.48' -> Navigate to page '#/product/*'
+1,Confirm Purchase of Pliers and Complete Checkout Process,"Navigate to the home page and add pliers to the cart. Proceed to checkout and login. Enter address details including city, state, country, and postcode. Proceed to checkout, select payment method, and confirm the purchase. Finally, confirm the order and return to the home page.","Step 1: Navigate to https://practicesoftwaretesting.com/#
+Step 2: Click on link 'Pliers$12.01' -> Navigate to page ''
 Step 3: Click on button 'btn-add-to-cart'
-Step 4: Click on link '1' -> Navigate to page '#/checkout'
+Step 4: Click on link '1'
 Step 5: Click on button 'Proceed to checkout'
 Step 6: Login
 Step 7: Click on button 'Proceed to checkout'
@@ -22,13 +22,3 @@ Step 20: Click on button 'Confirm'
 Step 21: Click on button 'Confirm'
 Step 22: Click on link 'Home'
 ",High
-2,Verify Address Input during Checkout Process,Navigate to the home page and add Claw Hammer1148 to the cart. Proceed to checkout and input address details. Verify the address input functionality during the checkout process.,"Step 1: Navigate to https://practicesoftwaretesting.com/#
-Step 2: Click on link 'Claw Hammer$11.48' -> Navigate to page '#/product/*'
-Step 3: Click on div
-Step 4: Click on button 'btn-add-to-cart'
-Step 5: Click on link '1' -> Navigate to page '#/checkout'
-Step 6: Click on button 'Proceed to checkout'
-Step 7: Login
-Step 8: Click on button 'Proceed to checkout'
-Step 9: Click on input field 'address'
-",Low
