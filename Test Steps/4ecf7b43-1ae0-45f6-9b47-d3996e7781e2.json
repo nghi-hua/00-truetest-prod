@@ -1,0 +1,24 @@
+{
+    "steps": [
+        "step 1: Navigate to https://practicesoftwaretesting.com/#",
+        "step 2: Click on span",
+        "step 3: Click on span",
+        "step 4: Click on span",
+        "step 5: Click on link 'Tool Cabinet$86.71' -> Navigate to page ''",
+        "step 6: Click on button 'btn-add-to-cart'",
+        "step 7: Click on link 'Home' -> Navigate to page '#'",
+        "step 8: Click on span",
+        "step 9: Click on span",
+        "step 10: Click on link 'Sheet Sander$58.48' -> Navigate to page '#/product/*'",
+        "step 11: Click on button 'btn-add-to-cart'",
+        "step 12: Click on link '1' -> Navigate to page ''",
+        "step 13: Click on button 'Proceed to checkout'",
+        "step 14: Login",
+        "step 15: Fill address details for checkout",
+        "step 16: Click on button 'Proceed to checkout'",
+        "step 17: Click on select 'payment-method'",
+        "step 18: Click on button 'Confirm'",
+        "step 19: Click on button 'Confirm'",
+        "step 20: Click on link 'Home'"
+    ]
+}

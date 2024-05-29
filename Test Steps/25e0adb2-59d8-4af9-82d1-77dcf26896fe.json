@@ -1,0 +1,13 @@
+{
+    "steps": [
+        "step 1: Navigate to https://practicesoftwaretesting.com/#",
+        "step 2: Login",
+        "step 3: Add pliers to cart and proceed to checkout after logging in",
+        "step 4: Fill address details for checkout",
+        "step 5: Click on button 'Proceed to checkout'",
+        "step 6: Click on select 'payment-method'",
+        "step 7: Click on button 'Confirm'",
+        "step 8: Click on button 'Confirm'",
+        "step 9: Click on link 'Home'"
+    ]
+}
