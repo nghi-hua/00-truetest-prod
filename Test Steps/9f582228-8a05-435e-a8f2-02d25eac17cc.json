@@ -1,0 +1,17 @@
+{
+    "steps": [
+        "step 1: Navigate to https://practicesoftwaretesting.com/",
+        "step 2: Login",
+        "step 3: Click on link 'Contact' -> Navigate to page '#/*'",
+        "step 4: Click on input field 'first name'",
+        "step 5: Enter input value in input field 'first name'",
+        "step 6: Click on input field 'last name'",
+        "step 7: Enter input value in input field 'last name'",
+        "step 8: Click on input field 'email'",
+        "step 9: Enter input value in input field 'email'",
+        "step 10: Click on select 'subject'",
+        "step 11: Click on textarea 'message'",
+        "step 12: Enter input value in textarea 'message'",
+        "step 13: Click on input field"
+    ]
+}

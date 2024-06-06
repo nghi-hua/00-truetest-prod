@@ -1,0 +1,15 @@
+{
+    "steps": [
+        "step 1: Navigate to https://practicesoftwaretesting.com/",
+        "step 2: Click on link '3'",
+        "step 3: Select product, increase quantity, add to cart, and proceed to checkout",
+        "step 4: Login",
+        "step 5: Enter address details during checkout process",
+        "step 6: Click on button 'Proceed to checkout'",
+        "step 7: Click on select 'payment-method'",
+        "step 8: Click on button 'Confirm'",
+        "step 9: Click on button 'Confirm'",
+        "step 10: Click on div 'navbarSupportedContent'",
+        "step 11: Click on link 'Home'"
+    ]
+}

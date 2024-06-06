@@ -1,0 +1,25 @@
+{
+    "steps": [
+        "step 1: Navigate to https://practicesoftwaretesting.com/",
+        "step 2: Click on link 'Categories'",
+        "step 3: Click on link 'Rentals' -> Navigate to page '#/*'",
+        "step 4: Click on image 'Crane' -> Navigate to page '#/product/*'",
+        "step 5: Click on span",
+        "step 6: Click on button 'btn-add-to-cart'",
+        "step 7: Click on link 'Categories'",
+        "step 8: Click on link 'Rentals' -> Navigate to page '#/*'",
+        "step 9: Click on app",
+        "step 10: Click on image 'Bulldozer' -> Navigate to page '#/product/*'",
+        "step 11: Click on span",
+        "step 12: Click on button 'btn-add-to-cart'",
+        "step 13: Click on link '4' -> Navigate to page '#/*'",
+        "step 14: Click on button 'Proceed to checkout'",
+        "step 15: Login",
+        "step 16: Enter address details during checkout process",
+        "step 17: Click on button 'Proceed to checkout'",
+        "step 18: Click on select 'payment-method'",
+        "step 19: Click on button 'Confirm'",
+        "step 20: Click on button 'Confirm'",
+        "step 21: Click on link 'Home'"
+    ]
+}

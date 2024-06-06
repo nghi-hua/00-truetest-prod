@@ -1,0 +1,16 @@
+{
+    "steps": [
+        "step 1: Navigate to https://practicesoftwaretesting.com/",
+        "step 2: Login",
+        "step 3: Click on link '3'",
+        "step 4: Click on link 'Safety Goggles$24.26' -> Navigate to page '#/product/*'",
+        "step 5: Click on button 'btn-increase-quantity'",
+        "step 6: Click on button 'btn-add-to-cart'",
+        "step 7: Click on link 'Home' -> Navigate to page ''",
+        "step 8: Click on input field 'search-query'",
+        "step 9: Enter input value in input field 'search-query'",
+        "step 10: Click on button 'Search'",
+        "step 11: Click on link 'Combination Pliers$14.15' -> Navigate to page '#/product/*'",
+        "step 12: Take full page screenshot as checkpoint"
+    ]
+}

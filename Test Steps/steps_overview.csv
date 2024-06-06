@@ -1,13 +1,27 @@
 Flow ID,Name,Description,Test Steps,Flow Priority
-1,Verify Successful Checkout Process after Adding Pliers to Cart,Navigate to the home page and login. Add pliers to the cart and proceed to checkout after logging in. Fill in the address details for checkout. Proceed through the checkout process by selecting the payment method and confirming the order.,"Step 1: Navigate to https://practicesoftwaretesting.com/#
+3,Contact Form Submission,"Navigate to the contact page, fill in first name, last name, email, subject, and message. Submit the form.","Step 1: Navigate to https://practicesoftwaretesting.com/
 Step 2: Login
-Step 3: Add pliers to cart and proceed to checkout after logging in
-	- Step 1: Click on link 'Pliers$12.01' -> Navigate to page ''
-	- Step 2: Click on button 'btn-add-to-cart'
-	- Step 3: Click on link '1'
-	- Step 4: Click on button 'Proceed to checkout'
-	- Step 5: Login
-Step 4: Fill address details for checkout
+Step 3: Click on link 'Contact' -> Navigate to page '#/*'
+Step 4: Click on input field 'first name'
+Step 5: Enter input value in input field 'first name'
+Step 6: Click on input field 'last name'
+Step 7: Enter input value in input field 'last name'
+Step 8: Click on input field 'email'
+Step 9: Enter input value in input field 'email'
+Step 10: Click on select 'subject'
+Step 11: Click on textarea 'message'
+Step 12: Enter input value in textarea 'message'
+Step 13: Click on input field
+",High
+1,Purchase with Address Details,"Select and add products to cart, proceed to checkout, enter address details, select payment method, and confirm the purchase.","Step 1: Navigate to https://practicesoftwaretesting.com/
+Step 2: Select product, increase quantity, add to cart, and proceed to checkout
+	- Step 1: Click on link 'Combination Pliers$14.15' -> Navigate to page '#/product/*'
+	- Step 2: Click on button 'btn-increase-quantity'
+	- Step 3: Click on button 'btn-add-to-cart'
+	- Step 4: Click on link '2' -> Navigate to page '#/*'
+	- Step 5: Click on button 'Proceed to checkout'
+Step 3: Login
+Step 4: Enter address details during checkout process
 	- Step 1: Click on button 'Proceed to checkout'
 	- Step 2: Click on input field 'address'
 	- Step 3: Enter input value in input field 'address'
@@ -24,21 +38,17 @@ Step 6: Click on select 'payment-method'
 Step 7: Click on button 'Confirm'
 Step 8: Click on button 'Confirm'
 Step 9: Click on link 'Home'
-",High
-2,Verify Adding Pliers to Cart and Checkout Flow,Navigate to the home page and login. Click on the category ID and add pliers to the cart. Proceed to checkout after logging in and filling in the address details. Confirm the order by selecting the payment method and clicking the confirm button.,"Step 1: Navigate to https://practicesoftwaretesting.com/#
-Step 2: Login
-Step 3: Click on input field 'category id'
-Step 4: Click on link 'Wood Saw$12.18' -> Navigate to page ''
-Step 5: Click on button 'btn-add-to-cart'
-Step 6: Click on link 'Home' -> Navigate to page '#'
-Step 7: Click on input field 'category id'
-Step 8: Add pliers to cart and proceed to checkout after logging in
-	- Step 1: Click on link 'Pliers$12.01' -> Navigate to page ''
-	- Step 2: Click on button 'btn-add-to-cart'
-	- Step 3: Click on link '1'
-	- Step 4: Click on button 'Proceed to checkout'
-	- Step 5: Login
-Step 9: Fill address details for checkout
+",Medium
+5,Purchase with Multiple Products,"Add multiple products to cart, proceed to checkout, enter address details, select payment method, and confirm the purchase.","Step 1: Navigate to https://practicesoftwaretesting.com/
+Step 2: Click on link '3'
+Step 3: Select product, increase quantity, add to cart, and proceed to checkout
+	- Step 1: Click on link 'Combination Pliers$14.15' -> Navigate to page '#/product/*'
+	- Step 2: Click on button 'btn-increase-quantity'
+	- Step 3: Click on button 'btn-add-to-cart'
+	- Step 4: Click on link '2' -> Navigate to page '#/*'
+	- Step 5: Click on button 'Proceed to checkout'
+Step 4: Login
+Step 5: Enter address details during checkout process
 	- Step 1: Click on button 'Proceed to checkout'
 	- Step 2: Click on input field 'address'
 	- Step 3: Enter input value in input field 'address'
@@ -50,59 +60,36 @@ Step 9: Fill address details for checkout
 	- Step 9: Enter input value in input field 'country'
 	- Step 10: Click on input field 'postcode'
 	- Step 11: Enter input value in input field 'postcode'
-Step 10: Click on button 'Proceed to checkout'
-Step 11: Click on select 'payment-method'
-Step 12: Click on button 'Confirm'
-Step 13: Click on button 'Confirm'
-Step 14: Click on link 'Home'
+Step 6: Click on button 'Proceed to checkout'
+Step 7: Click on select 'payment-method'
+Step 8: Click on button 'Confirm'
+Step 9: Click on button 'Confirm'
+Step 10: Click on div 'navbarSupportedContent'
+Step 11: Click on link 'Home'
 ",Trivial
-3,Verify Successful Checkout after Adding Tools to Cart,Navigate to the home page and add items to the cart. Proceed to checkout after logging in and filling in the address details. Select the payment method and confirm the order to complete the checkout process.,"Step 1: Navigate to https://practicesoftwaretesting.com/#
-Step 2: Click on span
-Step 3: Click on span
-Step 4: Click on span
-Step 5: Click on link 'Tool Cabinet$86.71' -> Navigate to page ''
-Step 6: Click on button 'btn-add-to-cart'
-Step 7: Click on link 'Home' -> Navigate to page '#'
-Step 8: Click on span
-Step 9: Click on span
-Step 10: Click on link 'Sheet Sander$58.48' -> Navigate to page '#/product/*'
-Step 11: Click on button 'btn-add-to-cart'
-Step 12: Click on link '1' -> Navigate to page ''
-Step 13: Click on button 'Proceed to checkout'
-Step 14: Login
-Step 15: Fill address details for checkout
-	- Step 1: Click on button 'Proceed to checkout'
-	- Step 2: Click on input field 'address'
-	- Step 3: Enter input value in input field 'address'
-	- Step 4: Click on input field 'city'
-	- Step 5: Enter input value in input field 'city'
-	- Step 6: Click on input field 'state'
-	- Step 7: Enter input value in input field 'state'
-	- Step 8: Click on input field 'country'
-	- Step 9: Enter input value in input field 'country'
-	- Step 10: Click on input field 'postcode'
-	- Step 11: Enter input value in input field 'postcode'
-Step 16: Click on button 'Proceed to checkout'
-Step 17: Click on select 'payment-method'
-Step 18: Click on button 'Confirm'
-Step 19: Click on button 'Confirm'
-Step 20: Click on link 'Home'
-",Trivial
-4,Verify Adding Claw Hammer to Cart and Checkout Process,Navigate to the home page and login. Click on the object and add a claw hammer to the cart. Proceed to checkout after adding pliers and filling in the address details. Confirm the order by selecting the payment method and clicking the confirm button.,"Step 1: Navigate to https://practicesoftwaretesting.com/#
+8,Search and Purchase Products,"Search for and add products to cart, navigate home, search for another product, and verify the home page.","Step 1: Navigate to https://practicesoftwaretesting.com/
 Step 2: Login
-Step 3: Click on select
-Step 4: Click on span
-Step 5: Click on link 'Claw Hammer with Shock Reduction Grip$13.41' -> Navigate to page ''
+Step 3: Click on link '3'
+Step 4: Click on link 'Safety Goggles$24.26' -> Navigate to page '#/product/*'
+Step 5: Click on button 'btn-increase-quantity'
 Step 6: Click on button 'btn-add-to-cart'
-Step 7: Click on link 'Home' -> Navigate to page '#'
-Step 8: Click on input field 'category id'
-Step 9: Add pliers to cart and proceed to checkout after logging in
-	- Step 1: Click on link 'Pliers$12.01' -> Navigate to page ''
-	- Step 2: Click on button 'btn-add-to-cart'
-	- Step 3: Click on link '1'
-	- Step 4: Click on button 'Proceed to checkout'
-	- Step 5: Login
-Step 10: Fill address details for checkout
+Step 7: Click on link 'Home' -> Navigate to page ''
+Step 8: Click on input field 'search-query'
+Step 9: Enter input value in input field 'search-query'
+Step 10: Click on button 'Search'
+Step 11: Click on link 'Combination Pliers$14.15' -> Navigate to page '#/product/*'
+Step 12: Take full page screenshot as checkpoint
+",Trivial
+9,Purchase with Quantity and Checkout,"Add a specific quantity of a product to cart, proceed to checkout, enter address details, select payment method, and confirm the purchase.","Step 1: Navigate to https://practicesoftwaretesting.com/
+Step 2: Click on link 'Thor Hammer$11.14' -> Navigate to page '#/product/*'
+Step 3: Click on button 'btn-add-to-cart'
+Step 4: Click on link '1' -> Navigate to page '#/*'
+Step 5: Click on tr
+Step 6: Enter input value in input field 'quantity-01hzkvbdcqw4br5wkcxwjx6q8r'
+Step 7: Click on td
+Step 8: Click on button 'Proceed to checkout'
+Step 9: Login
+Step 10: Enter address details during checkout process
 	- Step 1: Click on button 'Proceed to checkout'
 	- Step 2: Click on input field 'address'
 	- Step 3: Enter input value in input field 'address'
@@ -120,15 +107,137 @@ Step 13: Click on button 'Confirm'
 Step 14: Click on button 'Confirm'
 Step 15: Click on link 'Home'
 ",Trivial
-5,Verify Adding Belt Sander and Cordless Drill to Cart,Navigate to the home page and login. Click on the category ID and add a belt sander to the cart. Proceed to add a cordless drill to the cart and proceed to checkout by clicking the proceed button.,"Step 1: Navigate to https://practicesoftwaretesting.com/#
-Step 2: Login
-Step 3: Click on input field 'category id'
-Step 4: Click on link 'Belt Sander$73.59' -> Navigate to page '#/product/*'
+2,Search Add to Cart and Checkout,"Search for a product, add to cart, proceed to checkout, enter address details, select payment method, and confirm the purchase.","Step 1: Navigate to https://practicesoftwaretesting.com/
+Step 2: Click on input field 'search-query'
+Step 3: Enter input value in input field 'search-query'
+Step 4: Click on button 'Search'
+Step 5: Select product, increase quantity, add to cart, and proceed to checkout
+	- Step 1: Click on link 'Combination Pliers$14.15' -> Navigate to page '#/product/*'
+	- Step 2: Click on button 'btn-increase-quantity'
+	- Step 3: Click on button 'btn-add-to-cart'
+	- Step 4: Click on link '2' -> Navigate to page '#/*'
+	- Step 5: Click on button 'Proceed to checkout'
+Step 6: Login
+Step 7: Enter address details during checkout process
+	- Step 1: Click on button 'Proceed to checkout'
+	- Step 2: Click on input field 'address'
+	- Step 3: Enter input value in input field 'address'
+	- Step 4: Click on input field 'city'
+	- Step 5: Enter input value in input field 'city'
+	- Step 6: Click on input field 'state'
+	- Step 7: Enter input value in input field 'state'
+	- Step 8: Click on input field 'country'
+	- Step 9: Enter input value in input field 'country'
+	- Step 10: Click on input field 'postcode'
+	- Step 11: Enter input value in input field 'postcode'
+Step 8: Click on button 'Proceed to checkout'
+Step 9: Click on select 'payment-method'
+Step 10: Click on button 'Confirm'
+Step 11: Click on button 'Confirm'
+",Trivial
+4,Rentals Purchase Flow,"Add rental items to cart, proceed to checkout, enter address details, select payment method, and confirm the purchase.","Step 1: Navigate to https://practicesoftwaretesting.com/
+Step 2: Click on link 'Categories'
+Step 3: Click on link 'Rentals' -> Navigate to page '#/*'
+Step 4: Click on image 'Crane' -> Navigate to page '#/product/*'
+Step 5: Click on span
+Step 6: Click on button 'btn-add-to-cart'
+Step 7: Click on link 'Categories'
+Step 8: Click on link 'Rentals' -> Navigate to page '#/*'
+Step 9: Click on app
+Step 10: Click on image 'Bulldozer' -> Navigate to page '#/product/*'
+Step 11: Click on span
+Step 12: Click on button 'btn-add-to-cart'
+Step 13: Click on link '4' -> Navigate to page '#/*'
+Step 14: Click on button 'Proceed to checkout'
+Step 15: Login
+Step 16: Enter address details during checkout process
+	- Step 1: Click on button 'Proceed to checkout'
+	- Step 2: Click on input field 'address'
+	- Step 3: Enter input value in input field 'address'
+	- Step 4: Click on input field 'city'
+	- Step 5: Enter input value in input field 'city'
+	- Step 6: Click on input field 'state'
+	- Step 7: Enter input value in input field 'state'
+	- Step 8: Click on input field 'country'
+	- Step 9: Enter input value in input field 'country'
+	- Step 10: Click on input field 'postcode'
+	- Step 11: Enter input value in input field 'postcode'
+Step 17: Click on button 'Proceed to checkout'
+Step 18: Click on select 'payment-method'
+Step 19: Click on button 'Confirm'
+Step 20: Click on button 'Confirm'
+Step 21: Click on link 'Home'
+",Trivial
+6,Purchase Construction Equipment,"Add construction equipment to cart, proceed to checkout, enter address details, select payment method, and confirm the purchase.","Step 1: Navigate to https://practicesoftwaretesting.com/
+Step 2: Click on span
+Step 3: Click on span
+Step 4: Click on link 'Construction Helmet$41.29' -> Navigate to page '#/product/*'
 Step 5: Click on button 'btn-add-to-cart'
-Step 6: Click on link 'Home' -> Navigate to page '#'
-Step 7: Click on input field 'category id'
-Step 8: Click on link 'Cordless Drill 24V$66.54' -> Navigate to page '#/product/*'
-Step 9: Click on button 'btn-add-to-cart'
-Step 10: Click on link '2' -> Navigate to page ''
+Step 6: Click on div
+Step 7: Click on link '1' -> Navigate to page '#/*'
+Step 8: Click on button 'Proceed to checkout'
+Step 9: Login
+Step 10: Enter address details during checkout process
+	- Step 1: Click on button 'Proceed to checkout'
+	- Step 2: Click on input field 'address'
+	- Step 3: Enter input value in input field 'address'
+	- Step 4: Click on input field 'city'
+	- Step 5: Enter input value in input field 'city'
+	- Step 6: Click on input field 'state'
+	- Step 7: Enter input value in input field 'state'
+	- Step 8: Click on input field 'country'
+	- Step 9: Enter input value in input field 'country'
+	- Step 10: Click on input field 'postcode'
+	- Step 11: Enter input value in input field 'postcode'
 Step 11: Click on button 'Proceed to checkout'
+Step 12: Click on select 'payment-method'
+Step 13: Click on button 'Confirm'
+Step 14: Click on button 'Confirm'
+",Trivial
+7,Contact Add to Cart and Purchase,"Fill contact form, add a product to cart, proceed to checkout, enter address details, select payment method, and confirm the purchase.","Step 1: Navigate to https://practicesoftwaretesting.com/
+Step 2: Click on link 'Contact' -> Navigate to page '#/*'
+Step 3: Click on input field 'first name'
+Step 4: Enter input value in input field 'first name'
+Step 5: Click on input field 'last name'
+Step 6: Enter input value in input field 'last name'
+Step 7: Click on input field 'email'
+Step 8: Click on select 'subject'
+Step 9: Click on textarea 'message'
+Step 10: Enter input value in textarea 'message'
+Step 11: Click on input field
+Step 12: Click on link 'Home' -> Navigate to page ''
+Step 13: Click on link 'Claw Hammer$11.48' -> Navigate to page '#/product/*'
+Step 14: Click on button 'btn-add-to-cart'
+Step 15: Click on link '1' -> Navigate to page '#/*'
+Step 16: Click on button 'Proceed to checkout'
+Step 17: Login
+Step 18: Click on div
+Step 19: Enter address details during checkout process
+	- Step 1: Click on button 'Proceed to checkout'
+	- Step 2: Click on input field 'address'
+	- Step 3: Enter input value in input field 'address'
+	- Step 4: Click on input field 'city'
+	- Step 5: Enter input value in input field 'city'
+	- Step 6: Click on input field 'state'
+	- Step 7: Enter input value in input field 'state'
+	- Step 8: Click on input field 'country'
+	- Step 9: Enter input value in input field 'country'
+	- Step 10: Click on input field 'postcode'
+	- Step 11: Enter input value in input field 'postcode'
+Step 20: Click on button 'Proceed to checkout'
+Step 21: Click on select 'payment-method'
+Step 22: Click on button 'Confirm'
+Step 23: Click on button 'Confirm'
+Step 24: Click on link 'Home'
+",Trivial
+10,Add Power Tools and Cordless Drill to Cart,Add power tools and a cordless drill to the cart from different categories.,"Step 1: Navigate to https://practicesoftwaretesting.com/
+Step 2: Login
+Step 3: Click on link '4' -> Navigate to page '#/product/*'
+Step 4: Click on button 'btn-add-to-cart'
+Step 5: Click on link 'Categories'
+Step 6: Click on link 'Power Tools' -> Navigate to page '#/category/*'
+Step 7: Click on link 'Cordless Drill 24V$66.54' -> Navigate to page '#/product/*'
+Step 8: Click on button 'btn-add-to-cart'
+Step 9: Click on link '3' -> Navigate to page '#/*'
+Step 10: Click on link
 ",Trivial
