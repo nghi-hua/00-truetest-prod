@@ -1,0 +1,20 @@
+{
+    "steps": [
+        "step 1: Navigate to https://practicesoftwaretesting.com/",
+        "step 2: Click on link thorHammer1114 -> Navigate to page '#/product/*'",
+        "step 3: Click on button addToCart",
+        "step 4: Click on link categories",
+        "step 5: Click on link navRentals -> Navigate to page '#/*'",
+        "step 6: Click on image crane -> Navigate to page '#/product/*'",
+        "step 7: Click on span ngxSlider3",
+        "step 8: Click on button addToCart",
+        "step 9: Click on link navCart -> Navigate to page '#/*'",
+        "step 10: Click on button proceed1",
+        "step 11: Login",
+        "step 12: Enter address details for the order",
+        "step 13: Click on button proceedToCheckout",
+        "step 14: Click on dropdown paymentMethod",
+        "step 15: Click on button confirm",
+        "step 16: Click on button confirm"
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "steps": [
+        "step 1: Navigate to https://practicesoftwaretesting.com/",
+        "step 2: Click on link clawHammerShockReductionGrip1341 -> Navigate to page '#/product/*'",
+        "step 3: Click on button increaseQuantity",
+        "step 4: Click on button addToCart",
+        "step 5: Click on link home -> Navigate to page ''",
+        "step 6: Click on select formSelect",
+        "step 7: Click on link tapeMeasure75m723 -> Navigate to page '#/product/*'",
+        "step 8: Click on button addToCart",
+        "step 9: Click on link navCart -> Navigate to page '#/*'",
+        "step 10: Click on link table1",
+        "step 11: Click on button proceed1",
+        "step 12: Login",
+        "step 13: Enter address details for the order",
+        "step 14: Click on button proceedToCheckout",
+        "step 15: Click on dropdown paymentMethod",
+        "step 16: Click on button confirm",
+        "step 17: Click on button confirm",
+        "step 18: Click on link layer1 -> Navigate to page ''",
+        "step 19: Take full page screenshot as checkpoint"
+    ]
+}
