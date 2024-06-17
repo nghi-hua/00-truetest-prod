@@ -1,11 +1,13 @@
 Flow ID,Name,Description,Test Steps,Flow Priority
-1,Complete Order Process with Claw Hammer,"Navigate to the home page, add a Claw Hammer to the cart, proceed to checkout, enter address details, select payment method, and confirm the order.","Step 1: Navigate to https://practicesoftwaretesting.com/
-Step 2: Click on link clawHammer1148 -> Navigate to page '#/product/*'
-Step 3: Click on button addToCart
-Step 4: Click on link navCart -> Navigate to page '#/*'
-Step 5: Click on button proceed1
-Step 6: Login
-Step 7: Enter address details for the order
+1,Verify Successful Checkout Process with Address and Payment Details,"Navigate to home, login, add claw hammer to cart, enter address for checkout, select payment method, confirm order, and return to home page.","Step 1: Navigate to https://practicesoftwaretesting.com/
+Step 2: Login
+Step 3: Add claw hammer to cart and proceed to login
+	- Step 1: Click on link clawHammer1148
+	- Step 2: Click on button addToCart
+	- Step 3: Click on link navCart
+	- Step 4: Click on button proceed1
+	- Step 5: Login
+Step 4: Enter address details for checkout
 	- Step 1: Click on button proceed2
 	- Step 2: Click on input address
 	- Step 3: Enter input value in input address
@@ -17,13 +19,20 @@ Step 7: Enter address details for the order
 	- Step 9: Enter input value in input country
 	- Step 10: Click on input postcode
 	- Step 11: Enter input value in input postcode
-Step 8: Click on button proceedToCheckout
-Step 9: Click on dropdown paymentMethod
-Step 10: Click on button confirm
-Step 11: Click on button confirm
-Step 12: Click on link home
+Step 5: Select payment method and enter bank account details
+	- Step 1: Click on button proceedToCheckout
+	- Step 2: Click on dropdown paymentMethod
+	- Step 3: Click on input bankName
+	- Step 4: Enter input value in input bankName
+	- Step 5: Click on input accountName
+	- Step 6: Enter input value in input accountName
+	- Step 7: Click on input accountNumber
+	- Step 8: Enter input value in input accountNumber
+Step 6: Click on button confirm
+Step 7: Click on button confirm
+Step 8: Click on link home
 ",High
-3,Navigate and Select Categories with Form Selection,"Navigate to the home page, select categories using form selection, and navigate between different pages.","Step 1: Navigate to https://practicesoftwaretesting.com/
+3,Navigate and Interact with Category Selections,"Navigate to home, login, interact with category selections, move to page 2, select form options, and return to page 1.","Step 1: Navigate to https://practicesoftwaretesting.com/
 Step 2: Login
 Step 3: Click on input categoryId01J0Hx282Jwg9Y0693X8Kp8S20
 Step 4: Click on input categoryId01J0Hx282Jwg9Y0693X8Kp8S2C
@@ -33,16 +42,21 @@ Step 7: Click on link page2
 Step 8: Click on select formSelect
 Step 9: Click on link page1
 ",Trivial
-2,Purchase Power Tools and Confirm Order,"Navigate to the home page, select power tools, add to cart, proceed to checkout, enter address details, select payment method, and confirm the order.","Step 1: Navigate to https://practicesoftwaretesting.com/
-Step 2: Click on link product01J0Hx282Vqm44Paz8Xswzgja2 -> Navigate to page '#/product/*'
-Step 3: Click on link categories
-Step 4: Click on link categoryPowerTools -> Navigate to page '#/category/*'
-Step 5: Click on link product01J0Hx284Fg34Ffzf5353Nybxz -> Navigate to page '#/product/*'
-Step 6: Click on button addToCart
-Step 7: Click on link navCart -> Navigate to page '#/*'
-Step 8: Click on button proceed1
-Step 9: Login
-Step 10: Enter address details for the order
+5,Interact with Slider Bars and Complete Checkout,"Navigate to home, interact with slider bars, add claw hammer to cart, enter address for checkout, select payment method, and confirm order.","Step 1: Navigate to https://practicesoftwaretesting.com/
+Step 2: Login
+Step 3: Click on span sliderBar
+Step 4: Click on span ngxSlider3
+Step 5: Click on ngx slider
+Step 6: Click on ngx slider
+Step 7: Click on ngx slider
+Step 8: Click on span sliderBar
+Step 9: Add claw hammer to cart and proceed to login
+	- Step 1: Click on link clawHammer1148
+	- Step 2: Click on button addToCart
+	- Step 3: Click on link navCart
+	- Step 4: Click on button proceed1
+	- Step 5: Login
+Step 10: Enter address details for checkout
 	- Step 1: Click on button proceed2
 	- Step 2: Click on input address
 	- Step 3: Enter input value in input address
@@ -54,23 +68,30 @@ Step 10: Enter address details for the order
 	- Step 9: Enter input value in input country
 	- Step 10: Click on input postcode
 	- Step 11: Enter input value in input postcode
-Step 11: Click on button proceedToCheckout
-Step 12: Click on dropdown paymentMethod
+Step 11: Select payment method and enter bank account details
+	- Step 1: Click on button proceedToCheckout
+	- Step 2: Click on dropdown paymentMethod
+	- Step 3: Click on input bankName
+	- Step 4: Enter input value in input bankName
+	- Step 5: Click on input accountName
+	- Step 6: Enter input value in input accountName
+	- Step 7: Click on input accountNumber
+	- Step 8: Enter input value in input accountNumber
+Step 12: Click on button confirm
 Step 13: Click on button confirm
-Step 14: Click on button confirm
-Step 15: Click on link home
+Step 14: Click on link home
 ",Trivial
-5,Add Drawer Tool Cabinet to Cart and Confirm Order,"Navigate to the home page, add a Drawer Tool Cabinet to the cart, proceed to checkout, enter address details, select payment method, and confirm the order.","Step 1: Navigate to https://practicesoftwaretesting.com/
+6,Add Tool Cabinet to Cart and Proceed to Checkout,"Navigate to home, add tool cabinet to cart, proceed to checkout, login, enter address for checkout, select payment method, and confirm order.","Step 1: Navigate to https://practicesoftwaretesting.com/
 Step 2: Click on span sliderBar
-Step 3: Click on link drawerToolCabinet8955 -> Navigate to page '#/product/*'
+Step 3: Click on link drawerToolCabinet8955
 Step 4: Click on button addToCart
-Step 5: Click on link navCart -> Navigate to page '#/*'
+Step 5: Click on link navCart
 Step 6: Click on tr object
 Step 7: Enter input value in input quantityForDrawerTool
 Step 8: Click on td cell1
 Step 9: Click on button proceed1
 Step 10: Login
-Step 11: Enter address details for the order
+Step 11: Enter address details for checkout
 	- Step 1: Click on button proceed2
 	- Step 2: Click on input address
 	- Step 3: Enter input value in input address
@@ -82,24 +103,31 @@ Step 11: Enter address details for the order
 	- Step 9: Enter input value in input country
 	- Step 10: Click on input postcode
 	- Step 11: Enter input value in input postcode
-Step 12: Click on button proceedToCheckout
-Step 13: Click on dropdown paymentMethod
+Step 12: Select payment method and enter bank account details
+	- Step 1: Click on button proceedToCheckout
+	- Step 2: Click on dropdown paymentMethod
+	- Step 3: Click on input bankName
+	- Step 4: Enter input value in input bankName
+	- Step 5: Click on input accountName
+	- Step 6: Enter input value in input accountName
+	- Step 7: Click on input accountNumber
+	- Step 8: Enter input value in input accountNumber
+Step 13: Click on button confirm
 Step 14: Click on button confirm
-Step 15: Click on button confirm
-Step 16: Click on link home
+Step 15: Click on link home
 ",Trivial
-4,Rent Thor Hammer and Confirm Order,"Navigate to the home page, rent a Thor Hammer, proceed to checkout, enter address details, select payment method, and confirm the order.","Step 1: Navigate to https://practicesoftwaretesting.com/
-Step 2: Click on link thorHammer1114 -> Navigate to page '#/product/*'
+2,Add Hammer and Crane to Cart for Rental,"Navigate to home, add hammer and crane to cart, proceed to checkout, login, enter address for checkout, select payment method, and confirm order.","Step 1: Navigate to https://practicesoftwaretesting.com/
+Step 2: Click on link thorHammer1114
 Step 3: Click on button addToCart
 Step 4: Click on link categories
-Step 5: Click on link navRentals -> Navigate to page '#/*'
-Step 6: Click on image crane -> Navigate to page '#/product/*'
+Step 5: Click on link navRentals
+Step 6: Click on image crane
 Step 7: Click on span ngxSlider3
 Step 8: Click on button addToCart
-Step 9: Click on link navCart -> Navigate to page '#/*'
+Step 9: Click on link navCart
 Step 10: Click on button proceed1
 Step 11: Login
-Step 12: Enter address details for the order
+Step 12: Enter address details for checkout
 	- Step 1: Click on button proceed2
 	- Step 2: Click on input address
 	- Step 3: Enter input value in input address
@@ -111,24 +139,65 @@ Step 12: Enter address details for the order
 	- Step 9: Enter input value in input country
 	- Step 10: Click on input postcode
 	- Step 11: Enter input value in input postcode
-Step 13: Click on button proceedToCheckout
-Step 14: Click on dropdown paymentMethod
+Step 13: Select payment method and enter bank account details
+	- Step 1: Click on button proceedToCheckout
+	- Step 2: Click on dropdown paymentMethod
+	- Step 3: Click on input bankName
+	- Step 4: Enter input value in input bankName
+	- Step 5: Click on input accountName
+	- Step 6: Enter input value in input accountName
+	- Step 7: Click on input accountNumber
+	- Step 8: Enter input value in input accountNumber
+Step 14: Click on button confirm
 Step 15: Click on button confirm
-Step 16: Click on button confirm
 ",Trivial
-6,Order Claw Hammer with Quantity Increase and Tape Measure,"Navigate to the home page, add a Claw Hammer with increased quantity, add a Tape Measure to the cart, proceed to checkout, enter address details, select payment method, and confirm the order. Verify the home page.","Step 1: Navigate to https://practicesoftwaretesting.com/
-Step 2: Click on link clawHammerShockReductionGrip1341 -> Navigate to page '#/product/*'
+4,Add Power Tools to Cart and Complete Checkout,"Navigate to home, add power tools to cart, proceed to checkout, login, enter address for checkout, select payment method, and confirm order.","Step 1: Navigate to https://practicesoftwaretesting.com/
+Step 2: Click on link product01J0Hx282Vqm44Paz8Xswzgja2
+Step 3: Click on link categories
+Step 4: Click on link categoryPowerTools
+Step 5: Click on link product01J0Hx284Fg34Ffzf5353Nybxz
+Step 6: Click on button addToCart
+Step 7: Click on link navCart
+Step 8: Click on button proceed1
+Step 9: Login
+Step 10: Enter address details for checkout
+	- Step 1: Click on button proceed2
+	- Step 2: Click on input address
+	- Step 3: Enter input value in input address
+	- Step 4: Click on input city
+	- Step 5: Enter input value in input city
+	- Step 6: Click on input state
+	- Step 7: Enter input value in input state
+	- Step 8: Click on input country
+	- Step 9: Enter input value in input country
+	- Step 10: Click on input postcode
+	- Step 11: Enter input value in input postcode
+Step 11: Select payment method and enter bank account details
+	- Step 1: Click on button proceedToCheckout
+	- Step 2: Click on dropdown paymentMethod
+	- Step 3: Click on input bankName
+	- Step 4: Enter input value in input bankName
+	- Step 5: Click on input accountName
+	- Step 6: Enter input value in input accountName
+	- Step 7: Click on input accountNumber
+	- Step 8: Enter input value in input accountNumber
+Step 12: Click on button confirm
+Step 13: Click on button confirm
+Step 14: Click on link home
+",Trivial
+7,Interact with Various Product Links and Complete Checkout,"Navigate to home, interact with product links, add items to cart, proceed to checkout, login, enter address for checkout, select payment method, and confirm order. Verify home page.","Step 1: Navigate to https://practicesoftwaretesting.com/
+Step 2: Click on link clawHammerShockReductionGrip1341
 Step 3: Click on button increaseQuantity
 Step 4: Click on button addToCart
-Step 5: Click on link home -> Navigate to page ''
+Step 5: Click on link home
 Step 6: Click on select formSelect
-Step 7: Click on link tapeMeasure75m723 -> Navigate to page '#/product/*'
+Step 7: Click on link tapeMeasure75m723
 Step 8: Click on button addToCart
-Step 9: Click on link navCart -> Navigate to page '#/*'
+Step 9: Click on link navCart
 Step 10: Click on link table1
 Step 11: Click on button proceed1
 Step 12: Login
-Step 13: Enter address details for the order
+Step 13: Enter address details for checkout
 	- Step 1: Click on button proceed2
 	- Step 2: Click on input address
 	- Step 3: Enter input value in input address
@@ -140,10 +209,17 @@ Step 13: Enter address details for the order
 	- Step 9: Enter input value in input country
 	- Step 10: Click on input postcode
 	- Step 11: Enter input value in input postcode
-Step 14: Click on button proceedToCheckout
-Step 15: Click on dropdown paymentMethod
+Step 14: Select payment method and enter bank account details
+	- Step 1: Click on button proceedToCheckout
+	- Step 2: Click on dropdown paymentMethod
+	- Step 3: Click on input bankName
+	- Step 4: Enter input value in input bankName
+	- Step 5: Click on input accountName
+	- Step 6: Enter input value in input accountName
+	- Step 7: Click on input accountNumber
+	- Step 8: Enter input value in input accountNumber
+Step 15: Click on button confirm
 Step 16: Click on button confirm
-Step 17: Click on button confirm
-Step 18: Click on link layer1 -> Navigate to page ''
-Step 19: Take full page screenshot as checkpoint
+Step 17: Click on link layer1
+Step 18: Take full page screenshot as checkpoint
 ",Trivial
