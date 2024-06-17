@@ -9,6 +9,26 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/AI-Generated/Page_home/link_clawHammer1148_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/AI-Generated/Page_home/link_thorHammer1114",
+      "brokenLocator": "[data-test\u003d\"product-01J0HX2835E1C7MNQ94FAJPR4J\"]",
+      "brokenLocatorMethod": "SMART_LOCATOR",
+      "proposedLocator": "//body/app-root[1]/div[1]/app-overview[1]/div[3]/div[2]/div[1]/a[9]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/AI-Generated/Page_home/link_thorHammer1114_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/AI-Generated/Page_home/image_crane",
+      "brokenLocator": "[data-test\u003d\"product-01J0HX284TGVPH9Y6DGVQ29SDX\"] \u003e\u003e internal:role\u003dimg",
+      "brokenLocatorMethod": "SMART_LOCATOR",
+      "proposedLocator": "//body/app-root[1]/div[1]/app-overview[1]/div[1]/div[3]/div[1]/div[1]/img[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/AI-Generated/Page_home/image_crane_XPATH.png"
     }
   ]
 }

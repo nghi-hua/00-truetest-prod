@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "2276F43DB65633450B5540100A7046DD",
+  "keywordClasses": [
+    {
+      "name": "katalon.common.enterAddressDetailsForOrder",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

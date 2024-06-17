@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS1" time="74.475" tests="1" failures="0" errors="0">
+   <testsuite name="TS1" tests="1" failures="0" errors="0" time="74.475" skipped="0" timestamp="17-06-2024T10:00:24" hostname="nghi.hua - localhost" id="Test Suites/My Test Suite/TS1">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/nghi.hua/Desktop/KS Project/   ToolShop-Prod-1706/Reports/20240617_100017/My Test Suite/TS1/20240617_100018"/>
+         <property name="logFiles" value="/Users/nghi.hua/Desktop/KS Project/   ToolShop-Prod-1706/Reports/20240617_100017/My Test Suite/TS1/20240617_100018/execution0.log"/>
+         <property name="attachments" value="TC1/Step 2: Click on link clawHammer1148 - Navigate to page product.png, TC1/Step 3: Click on button addToCart.png, TC1/Step 4: Click on link navCart - Navigate to page .png, TC1/Step 5: Click on button proceed1.png, TC1/Step 8: Click on button proceedToCheckout.png, TC1/Step 9: Click on dropdown paymentMethod.png, TC1/Step 10: Click on button confirm.png, TC1/Step 11: Click on button confirm.png, TC1/Step 12: Click on link home.png, keyes/keyes-TC1-Complete Order Process with Claw Hammer_visual_checkpoint.png"/>
+         <property name="hostName" value="nghi.hua - localhost"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="9.4.0.212"/>
+         <property name="browser" value="Chrome 126.0.0.0"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="sessionId" value="98929806b570e34e9eacedd613ead0bf"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/AI-Generated/TC1-Complete Order Process with Claw Hammer" time="74.393" classname="Test Cases/AI-Generated/TC1-Complete Order Process with Claw Hammer" status="PASSED">
+         <system-out><![CDATA[17-06-2024T10:00:24 - [TEST_CASE][PASSED] - Test Cases/AI-Generated/TC1-Complete Order Process with Claw Hammer: Test Cases/AI-Generated/TC1-Complete Order Process with Claw Hammer
+
+17-06-2024T10:00:24 - [TEST_STEP][PASSED] - Start setup action : setup: Method 'setup' complete successfully
+
+17-06-2024T10:00:24 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+17-06-2024T10:00:24 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+17-06-2024T10:00:24 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+17-06-2024T10:00:27 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+17-06-2024T10:00:27 - [TEST_STEP][PASSED] - setViewPortSize(1920, 1080): Viewport is set to new size with width = 1920 and height = 1080
+
+17-06-2024T10:00:27 - [MESSAGE][PASSED] - Viewport is set to new size with width = 1920 and height = 1080
+
+17-06-2024T10:00:27 - [MESSAGE][PASSED] - Method 'setup' complete successfully
+
+17-06-2024T10:00:27 - [TEST_STEP][PASSED] - reportLocation = getReportFolder(): null
+
+17-06-2024T10:00:27 - [TEST_STEP][PASSED] - "Initialize test session: Open browser and set view port": null
+
+17-06-2024T10:00:27 - [TEST_STEP][PASSED] - TrueTestScripts.navigate("/"): Navigate to 'https://practicesoftwaretesting.com/' successfully
+
+17-06-2024T10:00:29 - [MESSAGE][PASSED] - Navigate to 'https://practicesoftwaretesting.com/' successfully
+
+17-06-2024T10:00:29 - [TEST_STEP][PASSED] - verifyMatch(getUrl(), application_domain + "?/?(?:#.*)?(?:\?.*)?$", true): Actual text 'https://practicesoftwaretesting.com/#/' and expected text 'https://practicesoftwaretesting.com?/?(?:#.*)?(?:\?.*)?$' are matched  using regular expression
+
+17-06-2024T10:00:29 - [MESSAGE][PASSED] - Current window's url is: 'https://practicesoftwaretesting.com/#/'
+
+17-06-2024T10:00:29 - [MESSAGE][PASSED] - Actual text 'https://practicesoftwaretesting.com/#/' and expected text 'https://practicesoftwaretesting.com?/?(?:#.*)?(?:\?.*)?$' are matched  using regular expression
+
+17-06-2024T10:00:29 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("AI-Generated/Page_home/link_clawHammer1148")): Object: 'Object Repository/AI-Generated/Page_home/link_clawHammer1148' is clicked on
+
+17-06-2024T10:01:00 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/AI-Generated/Page_home/link_clawHammer1148'. Try using Self-healing.
+
+17-06-2024T10:01:00 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/AI-Generated/Page_home/link_clawHammer1148' was broken. Propose an alternative one: '//body/app-root[1]/div[1]/app-overview[1]/div[3]/div[2]/div[1]/a[8]'.
+
+17-06-2024T10:01:00 - [MESSAGE][PASSED] - Object: 'Object Repository/AI-Generated/Page_home/link_clawHammer1148' is clicked on
+
+17-06-2024T10:01:00 - [TEST_STEP][PASSED] - takeScreenshot(reportLocation + "/TC1/Step 2: Click on link clawHammer1148 - Navigate to page product.png"): Taking screenshot successfully
+
+17-06-2024T10:01:03 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|TC1/Step 2: Click on link clawHammer1148 - Navigate to page product.png]]
+
+17-06-2024T10:01:03 - [TEST_STEP][PASSED] - verifyMatch(getUrl(), application_domain + "/#/product/.*?/?(?:#.*)?(?:\?.*)?$", true): Actual text 'https://practicesoftwaretesting.com/#/product/01J0J26ED54VNM35RA4V0SZV0R' and expected text 'https://practicesoftwaretesting.com/#/product/.*?/?(?:#.*)?(?:\?.*)?$' are matched  using regular expression
+
+17-06-2024T10:01:03 - [MESSAGE][PASSED] - Current window's url is: 'https://practicesoftwaretesting.com/#/product/01J0J26ED54VNM35RA4V0SZV0R'
+
+17-06-2024T10:01:03 - [MESSAGE][PASSED] - Actual text 'https://practicesoftwaretesting.com/#/product/01J0J26ED54VNM35RA4V0SZV0R' and expected text 'https://practicesoftwaretesting.com/#/product/.*?/?(?:#.*)?(?:\?.*)?$' are matched  using regular expression
+
+17-06-2024T10:01:03 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("AI-Generated/Page_home/button_addToCart")): Object: 'Object Repository/AI-Generated/Page_home/button_addToCart' is clicked on
+
+17-06-2024T10:01:03 - [MESSAGE][PASSED] - Object: 'Object Repository/AI-Generated/Page_home/button_addToCart' is clicked on
+
+17-06-2024T10:01:03 - [TEST_STEP][PASSED] - takeScreenshot(reportLocation + "/TC1/Step 3: Click on button addToCart.png"): Taking screenshot successfully
+
+17-06-2024T10:01:07 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|TC1/Step 3: Click on button addToCart.png]]
+
+17-06-2024T10:01:07 - [TEST_STEP][PASSED] - verifyMatch(getUrl(), application_domain + "/#/product/.*?/?(?:#.*)?(?:\?.*)?$", true): Actual text 'https://practicesoftwaretesting.com/#/product/01J0J26ED54VNM35RA4V0SZV0R' and expected text 'https://practicesoftwaretesting.com/#/product/.*?/?(?:#.*)?(?:\?.*)?$' are matched  using regular expression
+
+17-06-2024T10:01:07 - [MESSAGE][PASSED] - Current window's url is: 'https://practicesoftwaretesting.com/#/product/01J0J26ED54VNM35RA4V0SZV0R'
+
+17-06-2024T10:01:07 - [MESSAGE][PASSED] - Actual text 'https://practicesoftwaretesting.com/#/product/01J0J26ED54VNM35RA4V0SZV0R' and expected text 'https://practicesoftwaretesting.com/#/product/.*?/?(?:#.*)?(?:\?.*)?$' are matched  using regular expression
+
+17-06-2024T10:01:07 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("AI-Generated/Page_home/link_navCart")): Object: 'Object Repository/AI-Generated/Page_home/link_navCart' is clicked on
+
+17-06-2024T10:01:09 - [MESSAGE][PASSED] - Object: 'Object Repository/AI-Generated/Page_home/link_navCart' is clicked on
+
+17-06-2024T10:01:09 - [TEST_STEP][PASSED] - takeScreenshot(reportLocation + "/TC1/Step 4: Click on link navCart - Navigate to page .png"): Taking screenshot successfully
+
+17-06-2024T10:01:13 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|TC1/Step 4: Click on link navCart - Navigate to page .png]]
+
+17-06-2024T10:01:13 - [TEST_STEP][PASSED] - verifyMatch(getUrl(), application_domain + "/#/.*?/?(?:#.*)?(?:\?.*)?$", true): Actual text 'https://practicesoftwaretesting.com/#/checkout' and expected text 'https://practicesoftwaretesting.com/#/.*?/?(?:#.*)?(?:\?.*)?$' are matched  using regular expression
+
+17-06-2024T10:01:13 - [MESSAGE][PASSED] - Current window's url is: 'https://practicesoftwaretesting.com/#/checkout'
+
+17-06-2024T10:01:13 - [MESSAGE][PASSED] - Actual text 'https://practicesoftwaretesting.com/#/checkout' and expected text 'https://practicesoftwaretesting.com/#/.*?/?(?:#.*)?(?:\?.*)?$' are matched  using regular expression
+
+17-06-2024T10:01:13 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("AI-Generated/Page_home/button_proceed1")): Object: 'Object Repository/AI-Generated/Page_home/button_proceed1' is clicked on
+
+17-06-2024T10:01:13 - [MESSAGE][PASSED] - Object: 'Object Repository/AI-Generated/Page_home/button_proceed1' is clicked on
+
+17-06-2024T10:01:13 - [TEST_STEP][PASSED] - takeScreenshot(reportLocation + "/TC1/Step 5: Click on button proceed1.png"): Taking screenshot successfully
+
+17-06-2024T10:01:13 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|TC1/Step 5: Click on button proceed1.png]]
+
+17-06-2024T10:01:13 - [TEST_STEP][PASSED] - TrueTestScripts.login(): Object: 'Object Repository/Page_Login/input_Password_btnSubmit' is clicked on
+
+17-06-2024T10:01:14 - [MESSAGE][PASSED] - Text 'customer@practicesoftwaretesting.com' is set on object 'Object Repository/Page_Login/input_Email address_email'
+
+17-06-2024T10:01:15 - [MESSAGE][PASSED] - Text 'welcome01' is set on object 'Object Repository/Page_Login/input_Password_password'
+
+17-06-2024T10:01:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/input_Password_btnSubmit' is clicked on
+
+17-06-2024T10:01:15 - [TEST_STEP][PASSED] - enterAddressDetailsForOrder.execute(data_path_0, Integer.valueOf(index_0)): Text '91111' is set on object 'Object Repository/AI-Generated/Page_home/input_postcode'
+
+17-06-2024T10:01:17 - [MESSAGE][PASSED] - Object: 'Object Repository/AI-Generated/Page_home/button_proceed2' is clicked on
+
+17-06-2024T10:01:17 - [MESSAGE][PASSED] - Object: 'Object Repository/AI-Generated/Page_home/input_address' is clicked on
+
+17-06-2024T10:01:17 - [MESSAGE][PASSED] - Text '12 George' is set on object 'Object Repository/AI-Generated/Page_home/input_address'
+
+17-06-2024T10:01:17 - [MESSAGE][PASSED] - Object: 'Object Repository/AI-Generated/Page_home/input_city' is clicked on
+
+17-06-2024T10:01:17 - [MESSAGE][PASSED] - Text 'Alanta' is set on object 'Object Repository/AI-Generated/Page_home/input_city'
+
+17-06-2024T10:01:17 - [MESSAGE][PASSED] - Object: 'Object Repository/AI-Generated/Page_home/input_state' is clicked on
+
+17-06-2024T10:01:17 - [MESSAGE][PASSED] - Text 'GA' is set on object 'Object Repository/AI-Generated/Page_home/input_state'
+
+17-06-2024T10:01:17 - [MESSAGE][PASSED] - Object: 'Object Repository/AI-Generated/Page_home/input_country' is clicked on
+
+17-06-2024T10:01:17 - [MESSAGE][PASSED] - Text 'USA' is set on object 'Object Repository/AI-Generated/Page_home/input_country'
+
+17-06-2024T10:01:17 - [MESSAGE][PASSED] - Object: 'Object Repository/AI-Generated/Page_home/input_postcode' is clicked on
+
+17-06-2024T10:01:17 - [MESSAGE][PASSED] - Text '91111' is set on object 'Object Repository/AI-Generated/Page_home/input_postcode'
+
+17-06-2024T10:01:17 - [TEST_STEP][PASSED] - verifyMatch(getUrl(), application_domain + "/#/.*?/?(?:#.*)?(?:\?.*)?$", true): Actual text 'https://practicesoftwaretesting.com/#/checkout' and expected text 'https://practicesoftwaretesting.com/#/.*?/?(?:#.*)?(?:\?.*)?$' are matched  using regular expression
+
+17-06-2024T10:01:17 - [MESSAGE][PASSED] - Current window's url is: 'https://practicesoftwaretesting.com/#/checkout'
+
+17-06-2024T10:01:17 - [MESSAGE][PASSED] - Actual text 'https://practicesoftwaretesting.com/#/checkout' and expected text 'https://practicesoftwaretesting.com/#/.*?/?(?:#.*)?(?:\?.*)?$' are matched  using regular expression
+
+17-06-2024T10:01:17 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("AI-Generated/Page_home/button_proceedToCheckout")): Object: 'Object Repository/AI-Generated/Page_home/button_proceedToCheckout' is clicked on
+
+17-06-2024T10:01:18 - [MESSAGE][PASSED] - Object: 'Object Repository/AI-Generated/Page_home/button_proceedToCheckout' is clicked on
+
+17-06-2024T10:01:18 - [TEST_STEP][PASSED] - takeScreenshot(reportLocation + "/TC1/Step 8: Click on button proceedToCheckout.png"): Taking screenshot successfully
+
+17-06-2024T10:01:21 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|TC1/Step 8: Click on button proceedToCheckout.png]]
+
+17-06-2024T10:01:21 - [TEST_STEP][PASSED] - verifyMatch(getUrl(), application_domain + "/#/.*?/?(?:#.*)?(?:\?.*)?$", true): Actual text 'https://practicesoftwaretesting.com/#/checkout' and expected text 'https://practicesoftwaretesting.com/#/.*?/?(?:#.*)?(?:\?.*)?$' are matched  using regular expression
+
+17-06-2024T10:01:21 - [MESSAGE][PASSED] - Current window's url is: 'https://practicesoftwaretesting.com/#/checkout'
+
+17-06-2024T10:01:21 - [MESSAGE][PASSED] - Actual text 'https://practicesoftwaretesting.com/#/checkout' and expected text 'https://practicesoftwaretesting.com/#/.*?/?(?:#.*)?(?:\?.*)?$' are matched  using regular expression
+
+17-06-2024T10:01:21 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page_Checkout - Practice Software Testing -_889ccc/select_Choose your payment methodBank Trans_920188"), "cash-on-delivery", true): All options with value 'cash-on-delivery' are selected in object 'Object Repository/Page_Checkout - Practice Software Testing -_889ccc/select_Choose your payment methodBank Trans_920188'  using regular expression
+
+17-06-2024T10:01:21 - [MESSAGE][PASSED] - All options with value 'cash-on-delivery' are selected in object 'Object Repository/Page_Checkout - Practice Software Testing -_889ccc/select_Choose your payment methodBank Trans_920188'  using regular expression
+
+17-06-2024T10:01:21 - [TEST_STEP][PASSED] - takeScreenshot(reportLocation + "/TC1/Step 9: Click on dropdown paymentMethod.png"): Taking screenshot successfully
+
+17-06-2024T10:01:22 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|TC1/Step 9: Click on dropdown paymentMethod.png]]
+
+17-06-2024T10:01:22 - [TEST_STEP][PASSED] - verifyMatch(getUrl(), application_domain + "/#/.*?/?(?:#.*)?(?:\?.*)?$", true): Actual text 'https://practicesoftwaretesting.com/#/checkout' and expected text 'https://practicesoftwaretesting.com/#/.*?/?(?:#.*)?(?:\?.*)?$' are matched  using regular expression
+
+17-06-2024T10:01:22 - [MESSAGE][PASSED] - Current window's url is: 'https://practicesoftwaretesting.com/#/checkout'
+
+17-06-2024T10:01:22 - [MESSAGE][PASSED] - Actual text 'https://practicesoftwaretesting.com/#/checkout' and expected text 'https://practicesoftwaretesting.com/#/.*?/?(?:#.*)?(?:\?.*)?$' are matched  using regular expression
+
+17-06-2024T10:01:22 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("AI-Generated/Page_home/button_confirm")): Object: 'Object Repository/AI-Generated/Page_home/button_confirm' is clicked on
+
+17-06-2024T10:01:22 - [MESSAGE][PASSED] - Object: 'Object Repository/AI-Generated/Page_home/button_confirm' is clicked on
+
+17-06-2024T10:01:22 - [TEST_STEP][PASSED] - takeScreenshot(reportLocation + "/TC1/Step 10: Click on button confirm.png"): Taking screenshot successfully
+
+17-06-2024T10:01:30 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|TC1/Step 10: Click on button confirm.png]]
+
+17-06-2024T10:01:30 - [TEST_STEP][PASSED] - verifyMatch(getUrl(), application_domain + "/#/.*?/?(?:#.*)?(?:\?.*)?$", true): Actual text 'https://practicesoftwaretesting.com/#/checkout' and expected text 'https://practicesoftwaretesting.com/#/.*?/?(?:#.*)?(?:\?.*)?$' are matched  using regular expression
+
+17-06-2024T10:01:30 - [MESSAGE][PASSED] - Current window's url is: 'https://practicesoftwaretesting.com/#/checkout'
+
+17-06-2024T10:01:30 - [MESSAGE][PASSED] - Actual text 'https://practicesoftwaretesting.com/#/checkout' and expected text 'https://practicesoftwaretesting.com/#/.*?/?(?:#.*)?(?:\?.*)?$' are matched  using regular expression
+
+17-06-2024T10:01:30 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("AI-Generated/Page_home/button_confirm")): Object: 'Object Repository/AI-Generated/Page_home/button_confirm' is clicked on
+
+17-06-2024T10:01:30 - [MESSAGE][PASSED] - Object: 'Object Repository/AI-Generated/Page_home/button_confirm' is clicked on
+
+17-06-2024T10:01:30 - [TEST_STEP][PASSED] - takeScreenshot(reportLocation + "/TC1/Step 11: Click on button confirm.png"): Taking screenshot successfully
+
+17-06-2024T10:01:32 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|TC1/Step 11: Click on button confirm.png]]
+
+17-06-2024T10:01:32 - [TEST_STEP][PASSED] - verifyMatch(getUrl(), application_domain + "/#/.*?/?(?:#.*)?(?:\?.*)?$", true): Actual text 'https://practicesoftwaretesting.com/#/checkout' and expected text 'https://practicesoftwaretesting.com/#/.*?/?(?:#.*)?(?:\?.*)?$' are matched  using regular expression
+
+17-06-2024T10:01:32 - [MESSAGE][PASSED] - Current window's url is: 'https://practicesoftwaretesting.com/#/checkout'
+
+17-06-2024T10:01:32 - [MESSAGE][PASSED] - Actual text 'https://practicesoftwaretesting.com/#/checkout' and expected text 'https://practicesoftwaretesting.com/#/.*?/?(?:#.*)?(?:\?.*)?$' are matched  using regular expression
+
+17-06-2024T10:01:32 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("AI-Generated/Page_home/link_home")): Object: 'Object Repository/AI-Generated/Page_home/link_home' is clicked on
+
+17-06-2024T10:01:32 - [MESSAGE][PASSED] - Object: 'Object Repository/AI-Generated/Page_home/link_home' is clicked on
+
+17-06-2024T10:01:32 - [TEST_STEP][PASSED] - takeScreenshot(reportLocation + "/TC1/Step 12: Click on link home.png"): Taking screenshot successfully
+
+17-06-2024T10:01:36 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|TC1/Step 12: Click on link home.png]]
+
+17-06-2024T10:01:36 - [TEST_STEP][PASSED] - takeFullPageScreenshotAsCheckpoint("TC1-Complete Order Process with Claw Hammer_visual_checkpoint"): Taking screenshot successfully
+
+17-06-2024T10:01:38 - [MESSAGE][INFO] - 0 hidden object(s)
+
+17-06-2024T10:01:38 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes/keyes-TC1-Complete Order Process with Claw Hammer_visual_checkpoint.png]]
+
+17-06-2024T10:01:38 - [TEST_STEP][PASSED] - Start tear down : teardown: Method 'teardown' complete successfully
+
+17-06-2024T10:01:38 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+17-06-2024T10:01:38 - [MESSAGE][PASSED] - Browser is closed
+
+17-06-2024T10:01:38 - [MESSAGE][PASSED] - Method 'teardown' complete successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[17-06-2024T10:00:24 - [TEST_SUITE][PASSED] - TS1: Test Cases/AI-Generated/TC1-Complete Order Process with Claw Hammer]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -71,7 +71,9 @@ WebUI.takeScreenshot(reportLocation + '/TC1/Step 8: Click on button proceedToChe
 
 WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '/#/.*?/?(?:#.*)?(?:\\?.*)?$', true)
 
-WebUI.enhancedClick(findTestObject('AI-Generated/Page_home/dropdown_paymentMethod'))
+//WebUI.enhancedClick(findTestObject('AI-Generated/Page_home/dropdown_paymentMethod'))
+WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Checkout - Practice Software Testing -_889ccc/select_Choose your payment methodBank Trans_920188'),
+	'cash-on-delivery', true)
 
 WebUI.takeScreenshot(reportLocation + '/TC1/Step 9: Click on dropdown paymentMethod.png')
 
