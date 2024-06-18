@@ -1,0 +1,17 @@
+{
+    "steps": [
+        "step 1: Navigate to https://practicesoftwaretesting.com/",
+        "step 2: Click on span sliderBar",
+        "step 3: Click on span ngxSlider3",
+        "step 4: Click on ngx slider",
+        "step 5: Click on ngx slider",
+        "step 6: Click on ngx slider",
+        "step 7: Click on span sliderBar",
+        "step 8: Navigate, add to cart, and proceed to login",
+        "step 9: Fill address details in checkout process",
+        "step 10: Select payment method and provide bank details",
+        "step 11: Click on button confirm",
+        "step 12: Click on button confirm",
+        "step 13: Click on link home"
+    ]
+}

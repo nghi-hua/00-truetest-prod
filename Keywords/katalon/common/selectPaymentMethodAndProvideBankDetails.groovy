@@ -6,7 +6,7 @@ import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 
-public class selectPaymentMethodAndEnterBankDetails {
+public class selectPaymentMethodAndProvideBankDetails {
     
     private static def execute_functional_method(Map data) {
         "Step 1: Click on button proceedToCheckout"

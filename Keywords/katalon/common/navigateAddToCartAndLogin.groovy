@@ -7,14 +7,14 @@ import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import katalon.truetest.TrueTestScripts
 
-public class addClawHammerToCartAndLogin {
+public class navigateAddToCartAndLogin {
     
     private static def execute_functional_method(Map data) {
-        "Step 1: Click on link clawHammer1148"
+        "Step 1: Click on link clawHammer1148 -> Navigate to page '#/product/*'"
         WebUI.enhancedClick(findTestObject('AI-Generated/Page_home/link_clawHammer1148'))
         "Step 2: Click on button addToCart"
         WebUI.enhancedClick(findTestObject('AI-Generated/Page_home/button_addToCart'))
-        "Step 3: Click on link navCart"
+        "Step 3: Click on link navCart -> Navigate to page '#/*'"
         WebUI.enhancedClick(findTestObject('AI-Generated/Page_home/link_navCart'))
         "Step 4: Click on button proceed1"
         WebUI.enhancedClick(findTestObject('AI-Generated/Page_home/button_proceed1'))
