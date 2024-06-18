@@ -1,11 +1,11 @@
-import katalon.common.selectPaymentMethodAndProvideBankDetails
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
-import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
-import katalon.common.navigateAddToCartAndLogin
-import internal.GlobalVariable
 import katalon.truetest.TrueTestScripts
+import internal.GlobalVariable
 import katalon.common.fillAddressDetailsCheckout
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.configuration.RunConfiguration
+import katalon.common.selectPaymentMethodAndProvideBankDetails
+import katalon.common.navigateAddToCartAndLogin
 
 def reportLocation = RunConfiguration.getReportFolder()
 
