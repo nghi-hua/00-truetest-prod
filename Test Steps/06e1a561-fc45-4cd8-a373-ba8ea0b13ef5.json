@@ -1,0 +1,19 @@
+{
+    "steps": [
+        "step 1: Navigate to https://practicesoftwaretesting.com/",
+        "step 2: Login",
+        "step 3: Click on link pageItem5",
+        "step 4: Click on link pageItem4",
+        "step 5: Click on link pageItem4",
+        "step 6: Click on link product01J0Hx282Vqm44Paz8Xswzgja2 -> Navigate to page '#/product/*'",
+        "step 7: Click on button addToCart",
+        "step 8: Click on link categories",
+        "step 9: Click on link categoryPowerTools -> Navigate to page '#/category/*'",
+        "step 10: Click on link categories",
+        "step 11: Click on link handTools",
+        "step 12: Click on link woodSaw1218 -> Navigate to page '#/product/*'",
+        "step 13: Click on button addToCart",
+        "step 14: Click on link navContact",
+        "step 15: Fill contact form details and submit"
+    ]
+}

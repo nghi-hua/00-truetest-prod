@@ -1,12 +1,13 @@
 Flow ID,Name,Description,Test Steps,Flow Priority
-1,Verify Checkout Process with Login and Payment Confirmation,"Navigate to the homepage, add items to the cart, proceed to login, fill address details, select payment method, provide bank details, and confirm the payment.","Step 1: Navigate to https://practicesoftwaretesting.com/
-Step 2: Navigate, add to cart, and proceed to login
+1,Verify Checkout Process with Address and Payment Details,"Navigate to the homepage, login, add items to cart, fill address details, select payment method, input bank details, and confirm the order.","Step 1: Navigate to https://practicesoftwaretesting.com/
+Step 2: Login
+Step 3: Navigate, add to cart, and proceed to login
 	- Step 1: Click on link clawHammer1148 -> Navigate to page '#/product/*'
 	- Step 2: Click on button addToCart
 	- Step 3: Click on link navCart -> Navigate to page '#/*'
 	- Step 4: Click on button proceed1
 	- Step 5: Login
-Step 3: Fill address details in checkout process
+Step 4: Fill address details in the checkout process
 	- Step 1: Click on button proceed2
 	- Step 2: Click on input address
 	- Step 3: Enter input value in input address
@@ -18,7 +19,7 @@ Step 3: Fill address details in checkout process
 	- Step 9: Enter input value in input country
 	- Step 10: Click on input postcode
 	- Step 11: Enter input value in input postcode
-Step 4: Select payment method and provide bank details
+Step 5: Select payment method and input bank details
 	- Step 1: Click on button proceedToCheckout
 	- Step 2: Click on dropdown paymentMethod
 	- Step 3: Click on input bankName
@@ -27,13 +28,14 @@ Step 4: Select payment method and provide bank details
 	- Step 6: Enter input value in input accountName
 	- Step 7: Click on input accountNumber
 	- Step 8: Enter input value in input accountNumber
-Step 5: Click on button confirm
 Step 6: Click on button confirm
-Step 7: Click on link home
+Step 7: Click on button confirm
+Step 8: Click on link home
 ",High
-3,Submit Contact Form after Navigating to Contact Page,"Navigate to the homepage, click on the contact link, enter personal details, and submit a contact form.","Step 1: Navigate to https://practicesoftwaretesting.com/
-Step 2: Click on link navContact
-Step 3: Enter personal details and submit a contact form
+3,Fill and Submit Contact Form after Login,"Navigate to the homepage, login, click on contact link, fill the contact form details, and submit.","Step 1: Navigate to https://practicesoftwaretesting.com/
+Step 2: Login
+Step 3: Click on link navContact
+Step 4: Fill contact form details and submit
 	- Step 1: Click on input firstName
 	- Step 2: Enter input value in input firstName
 	- Step 3: Click on input lastName
@@ -45,20 +47,21 @@ Step 3: Enter personal details and submit a contact form
 	- Step 9: Enter input value in textarea message
 	- Step 10: Click on button contactSubmit
 ",High
-5,Verify Checkout Process with Multiple Slider Interactions,"Navigate to the homepage, interact with sliders, add items to the cart, proceed to login, fill address details, select payment method, provide bank details, and confirm the payment.","Step 1: Navigate to https://practicesoftwaretesting.com/
-Step 2: Click on span sliderBar
-Step 3: Click on span ngxSlider3
-Step 4: Click on ngx slider
+5,Verify Checkout Process with Multiple Items in Cart,"Navigate to the homepage, login, add multiple items to cart, fill address details, select payment method, input bank details, and confirm the order.","Step 1: Navigate to https://practicesoftwaretesting.com/
+Step 2: Login
+Step 3: Click on span sliderBar
+Step 4: Click on span ngxSlider3
 Step 5: Click on ngx slider
 Step 6: Click on ngx slider
-Step 7: Click on span sliderBar
-Step 8: Navigate, add to cart, and proceed to login
+Step 7: Click on ngx slider
+Step 8: Click on span sliderBar
+Step 9: Navigate, add to cart, and proceed to login
 	- Step 1: Click on link clawHammer1148 -> Navigate to page '#/product/*'
 	- Step 2: Click on button addToCart
 	- Step 3: Click on link navCart -> Navigate to page '#/*'
 	- Step 4: Click on button proceed1
 	- Step 5: Login
-Step 9: Fill address details in checkout process
+Step 10: Fill address details in the checkout process
 	- Step 1: Click on button proceed2
 	- Step 2: Click on input address
 	- Step 3: Enter input value in input address
@@ -70,85 +73,7 @@ Step 9: Fill address details in checkout process
 	- Step 9: Enter input value in input country
 	- Step 10: Click on input postcode
 	- Step 11: Enter input value in input postcode
-Step 10: Select payment method and provide bank details
-	- Step 1: Click on button proceedToCheckout
-	- Step 2: Click on dropdown paymentMethod
-	- Step 3: Click on input bankName
-	- Step 4: Enter input value in input bankName
-	- Step 5: Click on input accountName
-	- Step 6: Enter input value in input accountName
-	- Step 7: Click on input accountNumber
-	- Step 8: Enter input value in input accountNumber
-Step 11: Click on button confirm
-Step 12: Click on button confirm
-Step 13: Click on link home
-",Trivial
-4,Navigate and Interact with Category and Page Elements,"Navigate to the homepage, interact with category elements, click on different pages, and select items.","Step 1: Navigate to https://practicesoftwaretesting.com/
-Step 2: Click on input categoryId01J0Hx282Jwg9Y0693X8Kp8S20
-Step 3: Click on input categoryId01J0Hx282Jwg9Y0693X8Kp8S2C
-Step 4: Click on input categoryId01J0Hx282Jwg9Y0693X8Kp8S20
-Step 5: Click on input categoryId01J0Hx282F755Q4Vw9Ty57Za9S
-Step 6: Click on link page2
-Step 7: Click on select formSelect
-Step 8: Click on link page1
-",Trivial
-7,Add and Modify Cart Items before Checkout,"Navigate to the homepage, add items to the cart, modify quantities, proceed to checkout, fill address details, select payment method, provide bank details, and confirm the payment.","Step 1: Navigate to https://practicesoftwaretesting.com/
-Step 2: Click on span sliderBar
-Step 3: Click on link drawerToolCabinet8955 -> Navigate to page '#/product/*'
-Step 4: Click on button addToCart
-Step 5: Click on link navCart -> Navigate to page '#/*'
-Step 6: Click on tr object
-Step 7: Enter input value in input quantityForDrawerTool
-Step 8: Click on td cell1
-Step 9: Click on button proceed1
-Step 10: Login
-Step 11: Fill address details in checkout process
-	- Step 1: Click on button proceed2
-	- Step 2: Click on input address
-	- Step 3: Enter input value in input address
-	- Step 4: Click on input city
-	- Step 5: Enter input value in input city
-	- Step 6: Click on input state
-	- Step 7: Enter input value in input state
-	- Step 8: Click on input country
-	- Step 9: Enter input value in input country
-	- Step 10: Click on input postcode
-	- Step 11: Enter input value in input postcode
-Step 12: Select payment method and provide bank details
-	- Step 1: Click on button proceedToCheckout
-	- Step 2: Click on dropdown paymentMethod
-	- Step 3: Click on input bankName
-	- Step 4: Enter input value in input bankName
-	- Step 5: Click on input accountName
-	- Step 6: Enter input value in input accountName
-	- Step 7: Click on input accountNumber
-	- Step 8: Enter input value in input accountNumber
-Step 13: Click on button confirm
-Step 14: Click on button confirm
-Step 15: Click on link home
-",Trivial
-2,Add Power Tools to Cart and Complete Checkout,"Navigate to the homepage, add power tools to the cart, proceed to checkout, fill address details, select payment method, provide bank details, and confirm the payment.","Step 1: Navigate to https://practicesoftwaretesting.com/
-Step 2: Click on link product01J0Hx282Vqm44Paz8Xswzgja2 -> Navigate to page '#/product/*'
-Step 3: Click on link categories
-Step 4: Click on link categoryPowerTools -> Navigate to page '#/category/*'
-Step 5: Click on link product01J0Hx284Fg34Ffzf5353Nybxz -> Navigate to page '#/product/*'
-Step 6: Click on button addToCart
-Step 7: Click on link navCart -> Navigate to page '#/*'
-Step 8: Click on button proceed1
-Step 9: Login
-Step 10: Fill address details in checkout process
-	- Step 1: Click on button proceed2
-	- Step 2: Click on input address
-	- Step 3: Enter input value in input address
-	- Step 4: Click on input city
-	- Step 5: Enter input value in input city
-	- Step 6: Click on input state
-	- Step 7: Enter input value in input state
-	- Step 8: Click on input country
-	- Step 9: Enter input value in input country
-	- Step 10: Click on input postcode
-	- Step 11: Enter input value in input postcode
-Step 11: Select payment method and provide bank details
+Step 11: Select payment method and input bank details
 	- Step 1: Click on button proceedToCheckout
 	- Step 2: Click on dropdown paymentMethod
 	- Step 3: Click on input bankName
@@ -161,18 +86,27 @@ Step 12: Click on button confirm
 Step 13: Click on button confirm
 Step 14: Click on link home
 ",Trivial
-6,Rentals and Checkout Process with Crane Selection,"Navigate to the homepage, add items to the cart, proceed to rentals, select a crane, proceed to checkout, fill address details, select payment method, provide bank details, and confirm the payment.","Step 1: Navigate to https://practicesoftwaretesting.com/
-Step 2: Click on link thorHammer1114 -> Navigate to page '#/product/*'
-Step 3: Click on button addToCart
-Step 4: Click on link categories
-Step 5: Click on link navRentals -> Navigate to page '#/*'
-Step 6: Click on image crane -> Navigate to page '#/product/*'
-Step 7: Click on span ngxSlider3
-Step 8: Click on button addToCart
-Step 9: Click on link navCart -> Navigate to page '#/*'
-Step 10: Click on button proceed1
-Step 11: Login
-Step 12: Fill address details in checkout process
+4,Navigate and Select Categories for Purchase,"Navigate to the homepage, click on category IDs, go to page 2, select from form, and navigate back to page 1.","Step 1: Navigate to https://practicesoftwaretesting.com/
+Step 2: Login
+Step 3: Click on input categoryId01J0Hx282Jwg9Y0693X8Kp8S20
+Step 4: Click on input categoryId01J0Hx282Jwg9Y0693X8Kp8S2C
+Step 5: Click on input categoryId01J0Hx282Jwg9Y0693X8Kp8S20
+Step 6: Click on input categoryId01J0Hx282F755Q4Vw9Ty57Za9S
+Step 7: Click on link page2
+Step 8: Click on select formSelect
+Step 9: Click on link page1
+",Trivial
+7,Add Tool Cabinet to Cart and Complete Checkout,"Navigate to the homepage, add a tool cabinet to the cart, proceed to checkout, login, fill address details, select payment method, input bank details, and confirm the order.","Step 1: Navigate to https://practicesoftwaretesting.com/
+Step 2: Click on span sliderBar
+Step 3: Click on link drawerToolCabinet8955 -> Navigate to page '#/product/*'
+Step 4: Click on button addToCart
+Step 5: Click on link navCart -> Navigate to page '#/*'
+Step 6: Click on tr object
+Step 7: Enter input value in input quantityForDrawerTool
+Step 8: Click on td cell1
+Step 9: Click on button proceed1
+Step 10: Login
+Step 11: Fill address details in the checkout process
 	- Step 1: Click on button proceed2
 	- Step 2: Click on input address
 	- Step 3: Enter input value in input address
@@ -184,7 +118,77 @@ Step 12: Fill address details in checkout process
 	- Step 9: Enter input value in input country
 	- Step 10: Click on input postcode
 	- Step 11: Enter input value in input postcode
-Step 13: Select payment method and provide bank details
+Step 12: Select payment method and input bank details
+	- Step 1: Click on button proceedToCheckout
+	- Step 2: Click on dropdown paymentMethod
+	- Step 3: Click on input bankName
+	- Step 4: Enter input value in input bankName
+	- Step 5: Click on input accountName
+	- Step 6: Enter input value in input accountName
+	- Step 7: Click on input accountNumber
+	- Step 8: Enter input value in input accountNumber
+Step 13: Click on button confirm
+Step 14: Click on button confirm
+Step 15: Click on link home
+",Trivial
+2,Add Power Tools to Cart and Complete Checkout,"Navigate to the homepage, add power tools to the cart, proceed to checkout, login, fill address details, select payment method, input bank details, and confirm the order.","Step 1: Navigate to https://practicesoftwaretesting.com/
+Step 2: Click on link product01J0Hx282Vqm44Paz8Xswzgja2 -> Navigate to page '#/product/*'
+Step 3: Click on link categories
+Step 4: Click on link categoryPowerTools -> Navigate to page '#/category/*'
+Step 5: Click on link product01J0Hx284Fg34Ffzf5353Nybxz -> Navigate to page '#/product/*'
+Step 6: Click on button addToCart
+Step 7: Click on link navCart -> Navigate to page '#/*'
+Step 8: Click on button proceed1
+Step 9: Login
+Step 10: Fill address details in the checkout process
+	- Step 1: Click on button proceed2
+	- Step 2: Click on input address
+	- Step 3: Enter input value in input address
+	- Step 4: Click on input city
+	- Step 5: Enter input value in input city
+	- Step 6: Click on input state
+	- Step 7: Enter input value in input state
+	- Step 8: Click on input country
+	- Step 9: Enter input value in input country
+	- Step 10: Click on input postcode
+	- Step 11: Enter input value in input postcode
+Step 11: Select payment method and input bank details
+	- Step 1: Click on button proceedToCheckout
+	- Step 2: Click on dropdown paymentMethod
+	- Step 3: Click on input bankName
+	- Step 4: Enter input value in input bankName
+	- Step 5: Click on input accountName
+	- Step 6: Enter input value in input accountName
+	- Step 7: Click on input accountNumber
+	- Step 8: Enter input value in input accountNumber
+Step 12: Click on button confirm
+Step 13: Click on button confirm
+Step 14: Click on link home
+",Trivial
+6,Rent Crane and Complete Checkout Process,"Navigate to the homepage, rent a crane, add to cart, proceed to checkout, login, fill address details, select payment method, input bank details, and confirm the order.","Step 1: Navigate to https://practicesoftwaretesting.com/
+Step 2: Click on link thorHammer1114 -> Navigate to page '#/product/*'
+Step 3: Click on button addToCart
+Step 4: Click on link categories
+Step 5: Click on link navRentals -> Navigate to page '#/*'
+Step 6: Click on image crane -> Navigate to page '#/product/*'
+Step 7: Click on span ngxSlider3
+Step 8: Click on button addToCart
+Step 9: Click on link navCart -> Navigate to page '#/*'
+Step 10: Click on button proceed1
+Step 11: Login
+Step 12: Fill address details in the checkout process
+	- Step 1: Click on button proceed2
+	- Step 2: Click on input address
+	- Step 3: Enter input value in input address
+	- Step 4: Click on input city
+	- Step 5: Enter input value in input city
+	- Step 6: Click on input state
+	- Step 7: Enter input value in input state
+	- Step 8: Click on input country
+	- Step 9: Enter input value in input country
+	- Step 10: Click on input postcode
+	- Step 11: Enter input value in input postcode
+Step 13: Select payment method and input bank details
 	- Step 1: Click on button proceedToCheckout
 	- Step 2: Click on dropdown paymentMethod
 	- Step 3: Click on input bankName
@@ -196,7 +200,7 @@ Step 13: Select payment method and provide bank details
 Step 14: Click on button confirm
 Step 15: Click on button confirm
 ",Trivial
-8,Add Tools to Cart and Verify Checkout Completion,"Navigate to the homepage, add tools to the cart, increase quantities, proceed to checkout, fill address details, select payment method, provide bank details, confirm the payment, and verify the homepage.","Step 1: Navigate to https://practicesoftwaretesting.com/
+8,Add Tools and Tape Measure to Cart and Verify Homepage,"Navigate to the homepage, add tools and a tape measure to the cart, proceed to checkout, login, fill address details, select payment method, input bank details, confirm the order, and verify the homepage.","Step 1: Navigate to https://practicesoftwaretesting.com/
 Step 2: Click on link clawHammerShockReductionGrip1341 -> Navigate to page '#/product/*'
 Step 3: Click on button increaseQuantity
 Step 4: Click on button addToCart
@@ -208,7 +212,7 @@ Step 9: Click on link navCart -> Navigate to page '#/*'
 Step 10: Click on link table1
 Step 11: Click on button proceed1
 Step 12: Login
-Step 13: Fill address details in checkout process
+Step 13: Fill address details in the checkout process
 	- Step 1: Click on button proceed2
 	- Step 2: Click on input address
 	- Step 3: Enter input value in input address
@@ -220,7 +224,7 @@ Step 13: Fill address details in checkout process
 	- Step 9: Enter input value in input country
 	- Step 10: Click on input postcode
 	- Step 11: Enter input value in input postcode
-Step 14: Select payment method and provide bank details
+Step 14: Select payment method and input bank details
 	- Step 1: Click on button proceedToCheckout
 	- Step 2: Click on dropdown paymentMethod
 	- Step 3: Click on input bankName
@@ -234,20 +238,21 @@ Step 16: Click on button confirm
 Step 17: Click on link layer1 -> Navigate to page ''
 Step 18: Take full page screenshot as checkpoint
 ",Trivial
-9,Add Power Tools and Hand Tools to Cart Submit Contact Form,"Navigate to the homepage, add power tools and hand tools to the cart, proceed to checkout, click on contact link, enter personal details, and submit a contact form.","Step 1: Navigate to https://practicesoftwaretesting.com/
-Step 2: Click on link pageItem5
-Step 3: Click on link pageItem4
+9,Add Power and Hand Tools to Cart and Submit Contact Form,"Navigate to the homepage, login, add power and hand tools to the cart, click on contact link, fill the contact form details, and submit.","Step 1: Navigate to https://practicesoftwaretesting.com/
+Step 2: Login
+Step 3: Click on link pageItem5
 Step 4: Click on link pageItem4
-Step 5: Click on link product01J0Hx282Vqm44Paz8Xswzgja2 -> Navigate to page '#/product/*'
-Step 6: Click on button addToCart
-Step 7: Click on link categories
-Step 8: Click on link categoryPowerTools -> Navigate to page '#/category/*'
-Step 9: Click on link categories
-Step 10: Click on link handTools
-Step 11: Click on link woodSaw1218 -> Navigate to page '#/product/*'
-Step 12: Click on button addToCart
-Step 13: Click on link navContact
-Step 14: Enter personal details and submit a contact form
+Step 5: Click on link pageItem4
+Step 6: Click on link product01J0Hx282Vqm44Paz8Xswzgja2 -> Navigate to page '#/product/*'
+Step 7: Click on button addToCart
+Step 8: Click on link categories
+Step 9: Click on link categoryPowerTools -> Navigate to page '#/category/*'
+Step 10: Click on link categories
+Step 11: Click on link handTools
+Step 12: Click on link woodSaw1218 -> Navigate to page '#/product/*'
+Step 13: Click on button addToCart
+Step 14: Click on link navContact
+Step 15: Fill contact form details and submit
 	- Step 1: Click on input firstName
 	- Step 2: Enter input value in input firstName
 	- Step 3: Click on input lastName

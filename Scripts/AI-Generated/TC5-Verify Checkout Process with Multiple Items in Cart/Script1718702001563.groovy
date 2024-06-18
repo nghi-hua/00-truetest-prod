@@ -1,10 +1,10 @@
-import katalon.common.navigateAddToCartAndLogin
-import com.kms.katalon.core.configuration.RunConfiguration
-import katalon.truetest.TrueTestScripts
-import katalon.common.fillAddressDetailsCheckout
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+import com.kms.katalon.core.configuration.RunConfiguration
+import katalon.common.selectPaymentMethodInputBankDetails
+import katalon.truetest.TrueTestScripts
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
-import katalon.common.selectPaymentMethodAndProvideBankDetails
+import katalon.common.fillAddressDetailsCheckout
+import katalon.common.navigateAddToCartAndLogin
 import internal.GlobalVariable
 
 def reportLocation = RunConfiguration.getReportFolder()
@@ -21,29 +21,25 @@ def setup() {
 
 TrueTestScripts.navigate('/')
 
-"Step 2: Click on span sliderBar"
+"Step 2: Login into Application"
+
+TrueTestScripts.login()
+
+"Step 3: Click on span sliderBar"
 
 WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '?/?(?:#.*)?(?:\\?.*)?$', true)
 
 WebUI.enhancedClick(findTestObject('AI-Generated/Page_home/span_sliderBar'))
 
-WebUI.takeScreenshot(reportLocation + '/TC5/Step 2: Click on span sliderBar.png')
+WebUI.takeScreenshot(reportLocation + '/TC5/Step 3: Click on span sliderBar.png')
 
-"Step 3: Click on span ngxSlider3"
+"Step 4: Click on span ngxSlider3"
 
 WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '?/?(?:#.*)?(?:\\?.*)?$', true)
 
 WebUI.enhancedClick(findTestObject('AI-Generated/Page_home/span_ngxSlider3'))
 
-WebUI.takeScreenshot(reportLocation + '/TC5/Step 3: Click on span ngxSlider3.png')
-
-"Step 4: Click on ngx slider"
-
-WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '?/?(?:#.*)?(?:\\?.*)?$', true)
-
-WebUI.enhancedClick(findTestObject('AI-Generated/Page_home/ngx_slider'))
-
-WebUI.takeScreenshot(reportLocation + '/TC5/Step 4: Click on ngx slider.png')
+WebUI.takeScreenshot(reportLocation + '/TC5/Step 4: Click on span ngxSlider3.png')
 
 "Step 5: Click on ngx slider"
 
@@ -61,33 +57,33 @@ WebUI.enhancedClick(findTestObject('AI-Generated/Page_home/ngx_slider'))
 
 WebUI.takeScreenshot(reportLocation + '/TC5/Step 6: Click on ngx slider.png')
 
-"Step 7: Click on span sliderBar"
+"Step 7: Click on ngx slider"
+
+WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '?/?(?:#.*)?(?:\\?.*)?$', true)
+
+WebUI.enhancedClick(findTestObject('AI-Generated/Page_home/ngx_slider'))
+
+WebUI.takeScreenshot(reportLocation + '/TC5/Step 7: Click on ngx slider.png')
+
+"Step 8: Click on span sliderBar"
 
 WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '?/?(?:#.*)?(?:\\?.*)?$', true)
 
 WebUI.enhancedClick(findTestObject('AI-Generated/Page_home/span_sliderBar'))
 
-WebUI.takeScreenshot(reportLocation + '/TC5/Step 7: Click on span sliderBar.png')
+WebUI.takeScreenshot(reportLocation + '/TC5/Step 8: Click on span sliderBar.png')
 
-"Step 8: Navigate, add to cart, and proceed to login"
+"Step 9: Navigate, add to cart, and proceed to login"
 
 navigateAddToCartAndLogin.execute()
 
-"Step 9: Fill address details in checkout process"
+"Step 10: Fill address details in the checkout process"
 
 fillAddressDetailsCheckout.execute(data_path_0, Integer.valueOf(index_0))
 
-"Step 10: Select payment method and provide bank details"
+"Step 11: Select payment method and input bank details"
 
-selectPaymentMethodAndProvideBankDetails.execute(data_path_1, Integer.valueOf(index_1))
-
-"Step 11: Click on button confirm"
-
-WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '/#/.*?/?(?:#.*)?(?:\\?.*)?$', true)
-
-WebUI.enhancedClick(findTestObject('AI-Generated/Page_home/button_confirm'))
-
-WebUI.takeScreenshot(reportLocation + '/TC5/Step 11: Click on button confirm.png')
+selectPaymentMethodInputBankDetails.execute(data_path_1, Integer.valueOf(index_1))
 
 "Step 12: Click on button confirm"
 
@@ -97,17 +93,25 @@ WebUI.enhancedClick(findTestObject('AI-Generated/Page_home/button_confirm'))
 
 WebUI.takeScreenshot(reportLocation + '/TC5/Step 12: Click on button confirm.png')
 
-"Step 13: Click on link home"
+"Step 13: Click on button confirm"
+
+WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '/#/.*?/?(?:#.*)?(?:\\?.*)?$', true)
+
+WebUI.enhancedClick(findTestObject('AI-Generated/Page_home/button_confirm'))
+
+WebUI.takeScreenshot(reportLocation + '/TC5/Step 13: Click on button confirm.png')
+
+"Step 14: Click on link home"
 
 WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '/#/.*?/?(?:#.*)?(?:\\?.*)?$', true)
 
 WebUI.enhancedClick(findTestObject('AI-Generated/Page_home/link_home'))
 
-WebUI.takeScreenshot(reportLocation + '/TC5/Step 13: Click on link home.png')
+WebUI.takeScreenshot(reportLocation + '/TC5/Step 14: Click on link home.png')
 
-"Step 14: Take full page screenshot as checkpoint"
+"Step 15: Take full page screenshot as checkpoint"
 
-WebUI.takeFullPageScreenshotAsCheckpoint('TC5-Verify Checkout Process with Multiple Slider Interactions_visual_checkpoint')
+WebUI.takeFullPageScreenshotAsCheckpoint('TC5-Verify Checkout Process with Multiple Items in Cart_visual_checkpoint')
 
 'Terminate test session: Close browser'
 

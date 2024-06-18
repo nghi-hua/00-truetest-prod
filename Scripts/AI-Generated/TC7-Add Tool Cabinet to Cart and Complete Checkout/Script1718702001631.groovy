@@ -1,9 +1,9 @@
-import com.kms.katalon.core.configuration.RunConfiguration
-import katalon.truetest.TrueTestScripts
-import katalon.common.fillAddressDetailsCheckout
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+import com.kms.katalon.core.configuration.RunConfiguration
+import katalon.common.selectPaymentMethodInputBankDetails
+import katalon.truetest.TrueTestScripts
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
-import katalon.common.selectPaymentMethodAndProvideBankDetails
+import katalon.common.fillAddressDetailsCheckout
 import internal.GlobalVariable
 
 def reportLocation = RunConfiguration.getReportFolder()
@@ -88,13 +88,13 @@ WebUI.takeScreenshot(reportLocation + '/TC7/Step 9: Click on button proceed1.png
 
 TrueTestScripts.login()
 
-"Step 11: Fill address details in checkout process"
+"Step 11: Fill address details in the checkout process"
 
 fillAddressDetailsCheckout.execute(data_path_0, Integer.valueOf(index_0))
 
-"Step 12: Select payment method and provide bank details"
+"Step 12: Select payment method and input bank details"
 
-selectPaymentMethodAndProvideBankDetails.execute(data_path_1, Integer.valueOf(index_1))
+selectPaymentMethodInputBankDetails.execute(data_path_1, Integer.valueOf(index_1))
 
 "Step 13: Click on button confirm"
 
@@ -122,7 +122,7 @@ WebUI.takeScreenshot(reportLocation + '/TC7/Step 15: Click on link home.png')
 
 "Step 16: Take full page screenshot as checkpoint"
 
-WebUI.takeFullPageScreenshotAsCheckpoint('TC7-Add and Modify Cart Items before Checkout_visual_checkpoint')
+WebUI.takeFullPageScreenshotAsCheckpoint('TC7-Add Tool Cabinet to Cart and Complete Checkout_visual_checkpoint')
 
 'Terminate test session: Close browser'
 

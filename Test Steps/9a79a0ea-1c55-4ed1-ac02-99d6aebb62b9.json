@@ -1,0 +1,19 @@
+{
+    "steps": [
+        "step 1: Navigate to https://practicesoftwaretesting.com/",
+        "step 2: Click on span sliderBar",
+        "step 3: Click on link drawerToolCabinet8955 -> Navigate to page '#/product/*'",
+        "step 4: Click on button addToCart",
+        "step 5: Click on link navCart -> Navigate to page '#/*'",
+        "step 6: Click on tr object",
+        "step 7: Enter input value in input quantityForDrawerTool",
+        "step 8: Click on td cell1",
+        "step 9: Click on button proceed1",
+        "step 10: Login",
+        "step 11: Fill address details in the checkout process",
+        "step 12: Select payment method and input bank details",
+        "step 13: Click on button confirm",
+        "step 14: Click on button confirm",
+        "step 15: Click on link home"
+    ]
+}

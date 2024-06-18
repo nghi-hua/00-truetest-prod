@@ -1,8 +1,8 @@
-import com.kms.katalon.core.configuration.RunConfiguration
-import katalon.truetest.TrueTestScripts
-import katalon.common.enterPersonalDetailsAndSubmitContactForm
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import katalon.common.fillContactFormAndSubmit
+import katalon.truetest.TrueTestScripts
+import com.kms.katalon.core.configuration.RunConfiguration
 import internal.GlobalVariable
 
 def reportLocation = RunConfiguration.getReportFolder()
@@ -19,21 +19,17 @@ def setup() {
 
 TrueTestScripts.navigate('/')
 
-"Step 2: Click on link pageItem5"
+"Step 2: Login into Application"
+
+TrueTestScripts.login()
+
+"Step 3: Click on link pageItem5"
 
 WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '?/?(?:#.*)?(?:\\?.*)?$', true)
 
 WebUI.enhancedClick(findTestObject('AI-Generated/Page_home/link_pageItem5'))
 
-WebUI.takeScreenshot(reportLocation + '/TC9/Step 2: Click on link pageItem5.png')
-
-"Step 3: Click on link pageItem4"
-
-WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '?/?(?:#.*)?(?:\\?.*)?$', true)
-
-WebUI.enhancedClick(findTestObject('AI-Generated/Page_home/link_pageItem4'))
-
-WebUI.takeScreenshot(reportLocation + '/TC9/Step 3: Click on link pageItem4.png')
+WebUI.takeScreenshot(reportLocation + '/TC9/Step 3: Click on link pageItem5.png')
 
 "Step 4: Click on link pageItem4"
 
@@ -43,85 +39,93 @@ WebUI.enhancedClick(findTestObject('AI-Generated/Page_home/link_pageItem4'))
 
 WebUI.takeScreenshot(reportLocation + '/TC9/Step 4: Click on link pageItem4.png')
 
-"Step 5: Click on link product01J0Hx282Vqm44Paz8Xswzgja2 -> Navigate to page '#/product/*'"
+"Step 5: Click on link pageItem4"
+
+WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '?/?(?:#.*)?(?:\\?.*)?$', true)
+
+WebUI.enhancedClick(findTestObject('AI-Generated/Page_home/link_pageItem4'))
+
+WebUI.takeScreenshot(reportLocation + '/TC9/Step 5: Click on link pageItem4.png')
+
+"Step 6: Click on link product01J0Hx282Vqm44Paz8Xswzgja2 -> Navigate to page '#/product/*'"
 
 WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '?/?(?:#.*)?(?:\\?.*)?$', true)
 
 WebUI.enhancedClick(findTestObject('AI-Generated/Page_home/link_product01J0Hx282Vqm44Paz8Xswzgja2'))
 
-WebUI.takeScreenshot(reportLocation + '/TC9/Step 5: Click on link product01J0Hx282Vqm44Paz8Xswzgja2 - Navigate to page product.png')
+WebUI.takeScreenshot(reportLocation + '/TC9/Step 6: Click on link product01J0Hx282Vqm44Paz8Xswzgja2 - Navigate to page product.png')
 
-"Step 6: Click on button addToCart"
+"Step 7: Click on button addToCart"
 
 WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '/#/product/.*?/?(?:#.*)?(?:\\?.*)?$', true)
 
 WebUI.enhancedClick(findTestObject('AI-Generated/Page_home/button_addToCart'))
 
-WebUI.takeScreenshot(reportLocation + '/TC9/Step 6: Click on button addToCart.png')
+WebUI.takeScreenshot(reportLocation + '/TC9/Step 7: Click on button addToCart.png')
 
-"Step 7: Click on link categories"
+"Step 8: Click on link categories"
 
 WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '/#/product/.*?/?(?:#.*)?(?:\\?.*)?$', true)
 
 WebUI.enhancedClick(findTestObject('AI-Generated/Page_home/link_categories'))
 
-WebUI.takeScreenshot(reportLocation + '/TC9/Step 7: Click on link categories.png')
+WebUI.takeScreenshot(reportLocation + '/TC9/Step 8: Click on link categories.png')
 
-"Step 8: Click on link categoryPowerTools -> Navigate to page '#/category/*'"
+"Step 9: Click on link categoryPowerTools -> Navigate to page '#/category/*'"
 
 WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '/#/product/.*?/?(?:#.*)?(?:\\?.*)?$', true)
 
 WebUI.enhancedClick(findTestObject('AI-Generated/Page_home/link_categoryPowerTools'))
 
-WebUI.takeScreenshot(reportLocation + '/TC9/Step 8: Click on link categoryPowerTools - Navigate to page category.png')
+WebUI.takeScreenshot(reportLocation + '/TC9/Step 9: Click on link categoryPowerTools - Navigate to page category.png')
 
-"Step 9: Click on link categories"
+"Step 10: Click on link categories"
 
 WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '/#/category/.*?/?(?:#.*)?(?:\\?.*)?$', true)
 
 WebUI.enhancedClick(findTestObject('AI-Generated/Page_home/link_categories'))
 
-WebUI.takeScreenshot(reportLocation + '/TC9/Step 9: Click on link categories.png')
+WebUI.takeScreenshot(reportLocation + '/TC9/Step 10: Click on link categories.png')
 
-"Step 10: Click on link handTools"
+"Step 11: Click on link handTools"
 
 WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '/#/category/.*?/?(?:#.*)?(?:\\?.*)?$', true)
 
 WebUI.enhancedClick(findTestObject('AI-Generated/Page_home/link_handTools'))
 
-WebUI.takeScreenshot(reportLocation + '/TC9/Step 10: Click on link handTools.png')
+WebUI.takeScreenshot(reportLocation + '/TC9/Step 11: Click on link handTools.png')
 
-"Step 11: Click on link woodSaw1218 -> Navigate to page '#/product/*'"
+"Step 12: Click on link woodSaw1218 -> Navigate to page '#/product/*'"
 
 WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '/#/category/.*?/?(?:#.*)?(?:\\?.*)?$', true)
 
 WebUI.enhancedClick(findTestObject('AI-Generated/Page_home/link_woodSaw1218'))
 
-WebUI.takeScreenshot(reportLocation + '/TC9/Step 11: Click on link woodSaw1218 - Navigate to page product.png')
+WebUI.takeScreenshot(reportLocation + '/TC9/Step 12: Click on link woodSaw1218 - Navigate to page product.png')
 
-"Step 12: Click on button addToCart"
+"Step 13: Click on button addToCart"
 
 WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '/#/product/.*?/?(?:#.*)?(?:\\?.*)?$', true)
 
 WebUI.enhancedClick(findTestObject('AI-Generated/Page_home/button_addToCart'))
 
-WebUI.takeScreenshot(reportLocation + '/TC9/Step 12: Click on button addToCart.png')
+WebUI.takeScreenshot(reportLocation + '/TC9/Step 13: Click on button addToCart.png')
 
-"Step 13: Click on link navContact"
+"Step 14: Click on link navContact"
 
 WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '/#/product/.*?/?(?:#.*)?(?:\\?.*)?$', true)
 
 WebUI.enhancedClick(findTestObject('AI-Generated/Page_home/link_navContact'))
 
-WebUI.takeScreenshot(reportLocation + '/TC9/Step 13: Click on link navContact.png')
+WebUI.takeScreenshot(reportLocation + '/TC9/Step 14: Click on link navContact.png')
 
-"Step 14: Enter personal details and submit a contact form"
+"Step 15: Fill contact form details and submit"
 
-enterPersonalDetailsAndSubmitContactForm.execute(data_path_0, Integer.valueOf(index_0))
+fillContactFormAndSubmit.execute(data_path_0, Integer.valueOf(index_0))
 
-"Step 15: Take full page screenshot as checkpoint"
+"Step 16: Take full page screenshot as checkpoint"
 
-WebUI.takeFullPageScreenshotAsCheckpoint('TC9-Add Power Tools and Hand Tools to Cart Submit Contact Form_visual_checkpoint')
+WebUI.takeFullPageScreenshotAsCheckpoint('TC9-Add Power and Hand Tools to Cart and Submit Contact Form_visual_checkpoint')
 
 'Terminate test session: Close browser'
 
