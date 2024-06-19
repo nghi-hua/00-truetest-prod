@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "25286E7884316CE93FB6EAB21E46D95A",
+  "keywordClasses": [
+    {
+      "name": "katalon.common.fillAddressDetailsCheckout",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

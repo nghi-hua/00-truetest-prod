@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "0BE9F4FE76AF0B2F11E506303ECF9552",
+  "keywordClasses": [
+    {
+      "name": "katalon.common.navigateAddToCartAndLogin",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

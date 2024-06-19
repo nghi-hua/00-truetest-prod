@@ -23,7 +23,7 @@ TrueTestScripts.navigate('/')
 
 "Step 2: Login into Application"
 
-TrueTestScripts.login()
+//TrueTestScripts.login()
 
 "Step 3: Navigate, add to cart, and proceed to login"
 

@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "7D3E01E137F9AD0AE6010733F16508C2",
+  "keywordClasses": [
+    {
+      "name": "katalon.common.selectPaymentMethodInputBankDetails",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": false
+}

@@ -12,7 +12,9 @@ public class selectPaymentMethodInputBankDetails {
         "Step 1: Click on button proceedToCheckout"
         WebUI.enhancedClick(findTestObject('AI-Generated/Page_home/button_proceedToCheckout'))
         "Step 2: Click on dropdown paymentMethod"
-        WebUI.enhancedClick(findTestObject('AI-Generated/Page_home/dropdown_paymentMethod'))
+//        WebUI.enhancedClick(findTestObject('AI-Generated/Page_home/dropdown_paymentMethod'))
+		WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Checkout - Practice Software Testing -_889ccc/select_Choose your payment methodBank Trans_920188'),
+			'bank-transfer', true)
         "Step 3: Click on input bankName"
         WebUI.enhancedClick(findTestObject('AI-Generated/Page_home/input_bankName'))
         "Step 4: Enter input value in input bankName"

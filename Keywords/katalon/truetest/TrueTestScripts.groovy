@@ -25,8 +25,8 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 public class TrueTestScripts {
     public static void login() {
         try {
-            WebUI.setText(findTestObject('Object Repository/Page_Login/input_Email address_email'), '')
-            WebUI.setText(findTestObject('Object Repository/Page_Login/input_Password_password'), '')
+            WebUI.setText(findTestObject('Object Repository/Page_Login/input_Email address_email'), 'customer@practicesoftwaretesting.com')
+            WebUI.setText(findTestObject('Object Repository/Page_Login/input_Password_password'), 'welcome01')
             WebUI.click(findTestObject('Object Repository/Page_Login/input_Password_btnSubmit'))
         } catch(Exception e) {
             if (e.getCause() instanceof WebElementNotFoundException) {
