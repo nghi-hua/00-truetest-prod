@@ -1,0 +1,16 @@
+{
+    "steps": [
+        "step 1: Login -> Navigate to page '/'",
+        "step 2: Navigate to /",
+        "step 3: Click on checkbox categoryId",
+        "step 4: Click on input categoryId01J0Hx282Jwg9Y0693X8Kp8S2C",
+        "step 5: Click on checkbox categoryId",
+        "step 6: Click on input categoryId01J0Hx282F755Q4Vw9Ty57Za9S",
+        "step 7: Click on link pageItem2",
+        "step 8: Click on input searchQuery",
+        "step 9: Enter input value in input searchQuery",
+        "step 10: Click on button searchSubmit",
+        "step 11: Click on link page1 -> Navigate to page ''",
+        "step 12: Take full page screenshot as checkpoint"
+    ]
+}

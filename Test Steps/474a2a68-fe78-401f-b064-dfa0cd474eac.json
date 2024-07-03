@@ -1,0 +1,17 @@
+{
+    "steps": [
+        "step 1: Navigate to /",
+        "step 2: Click on link pliers12 -> Navigate to page 'product/*'",
+        "step 3: Click on button addToCart",
+        "step 4: Click on link navCart -> Navigate to page 'checkout'",
+        "step 5: Click on button proceed1",
+        "step 6: Login",
+        "step 7: Provide address details for shipping",
+        "step 8: Click on button proceedToCheckout",
+        "step 9: Click on dropdown paymentMethod",
+        "step 10: Click on button confirm",
+        "step 11: Click on button confirm",
+        "step 12: Click on link home -> Navigate to page ''",
+        "step 13: Take full page screenshot as checkpoint"
+    ]
+}

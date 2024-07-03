@@ -1,0 +1,20 @@
+{
+    "steps": [
+        "step 1: Navigate to /",
+        "step 2: Click on link thorHammer -> Navigate to page '#/product/*'",
+        "step 3: Click on button addToCart",
+        "step 4: Click on link navCart -> Navigate to page 'checkout'",
+        "step 5: Click on tr object",
+        "step 6: Enter input value in input quantityForThorHammer",
+        "step 7: Click on td cell1",
+        "step 8: Click on button proceed1",
+        "step 9: Login",
+        "step 10: Provide address details for shipping",
+        "step 11: Click on button proceedToCheckout",
+        "step 12: Click on dropdown paymentMethod",
+        "step 13: Click on button confirm",
+        "step 14: Click on button confirm",
+        "step 15: Click on link home -> Navigate to page ''",
+        "step 16: Take full page screenshot as checkpoint"
+    ]
+}

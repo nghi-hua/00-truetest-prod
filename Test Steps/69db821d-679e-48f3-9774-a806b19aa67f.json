@@ -1,0 +1,20 @@
+{
+    "steps": [
+        "step 1: Navigate to /",
+        "step 2: Click on link pageItem3",
+        "step 3: Click on link squareRuler1575 -> Navigate to page '#/product/*'",
+        "step 4: Click on button increaseQuantity",
+        "step 5: Click on button addToCart",
+        "step 6: Click on link navCart -> Navigate to page 'checkout'",
+        "step 7: Click on button proceed1",
+        "step 8: Login",
+        "step 9: Provide address details for shipping",
+        "step 10: Click on button proceedToCheckout",
+        "step 11: Click on dropdown paymentMethod",
+        "step 12: Click on button confirm",
+        "step 13: Click on button confirm",
+        "step 14: Click on div navbarSupportedContent",
+        "step 15: Click on link home -> Navigate to page ''",
+        "step 16: Take full page screenshot as checkpoint"
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "steps": [
+        "step 1: Navigate to /",
+        "step 2: Click on span sliderBar",
+        "step 3: Click on span ngxSlider3",
+        "step 4: Click on ngx slider",
+        "step 5: Click on ngx slider",
+        "step 6: Click on ngx slider",
+        "step 7: Click on span sliderBar",
+        "step 8: Click on link openEndSpannersSet -> Navigate to page '#/product/*'",
+        "step 9: Click on button addToCart",
+        "step 10: Click on link navCart -> Navigate to page 'checkout'",
+        "step 11: Click on button proceed1",
+        "step 12: Login",
+        "step 13: Provide address details for shipping",
+        "step 14: Click on button proceedToCheckout",
+        "step 15: Click on dropdown paymentMethod",
+        "step 16: Click on button confirm",
+        "step 17: Click on button confirm",
+        "step 18: Click on link home -> Navigate to page ''",
+        "step 19: Take full page screenshot as checkpoint"
+    ]
+}
