@@ -1,0 +1,21 @@
+{
+    "steps": [
+        "step 1: Navigate to /",
+        "step 2: Click on link product01J2G9F6Ehvmvgwwpgp7Kzy5N9 -> Navigate to page 'product/*'",
+        "step 3: Click on button addToCart",
+        "step 4: Click on link navCart -> Navigate to page '/checkout'",
+        "step 5: Click on button proceed1",
+        "step 6: Login",
+        "step 7: Click on button proceed2",
+        "step 8: Click on input state",
+        "step 9: Enter input value in input state",
+        "step 10: Click on input postcode",
+        "step 11: Enter input value in input postcode",
+        "step 12: Click on button proceedToCheckout",
+        "step 13: Click on dropdown paymentMethod",
+        "step 14: Click on button confirm",
+        "step 15: Click on button confirm",
+        "step 16: Click on link home -> Navigate to page ''",
+        "step 17: Take full page screenshot as checkpoint"
+    ]
+}
