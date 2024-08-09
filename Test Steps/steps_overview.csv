@@ -1,19 +1,290 @@
 Flow ID,Name,Description,Test Steps,Flow Priority
-1,Complete Purchase with User Login and Payment,"Navigate to the homepage, select a product, add it to the cart, and proceed to checkout. Login at checkout, provide shipping details, select payment method, and confirm the purchase. Verify the user is redirected to the homepage.","Step 1: Navigate to /
-Step 2: Click on link product01J2G9F6Ehvmvgwwpgp7Kzy5N9 -> Navigate to page 'product/*'
+1,Verify Checkout Process with Single Item in Cart,"Navigate to product page, add item to cart, proceed to checkout, provide address and payment details, and confirm the order.","Step 1: Navigate to /
+Step 2: Click on link clawHammer1148 -> Navigate to page 'product/*'
 Step 3: Click on button addToCart
-Step 4: Click on link navCart -> Navigate to page '/checkout'
+Step 4: Click on link navCart -> Navigate to page 'checkout'
 Step 5: Click on button proceed1
 Step 6: Login
-Step 7: Click on button proceed2
-Step 8: Click on input state
-Step 9: Enter input value in input state
-Step 10: Click on input postcode
-Step 11: Enter input value in input postcode
-Step 12: Click on button proceedToCheckout
-Step 13: Click on dropdown paymentMethod
-Step 14: Click on button confirm
-Step 15: Click on button confirm
-Step 16: Click on link home -> Navigate to page ''
-Step 17: Take full page screenshot as checkpoint
+Step 7: Provide address details for processing
+	- Step 1: Click on button proceed2
+	- Step 2: Click on input address
+	- Step 3: Enter input value in input address
+	- Step 4: Click on input city
+	- Step 5: Enter input value in input city
+	- Step 6: Click on input state
+	- Step 7: Enter input value in input state
+	- Step 8: Click on input country
+	- Step 9: Enter input value in input country
+	- Step 10: Click on input postcode
+	- Step 11: Enter input value in input postcode
+Step 8: Select payment method and enter payment details
+	- Step 1: Click on button proceedToCheckout
+	- Step 2: Click on dropdown paymentMethod
+	- Step 3: Click on input bankName
+	- Step 4: Enter input value in input bankName
+	- Step 5: Click on input accountName
+	- Step 6: Enter input value in input accountName
+	- Step 7: Click on input accountNumber
+	- Step 8: Enter input value in input accountNumber
+Step 9: Click on button confirm
+Step 10: Click on button confirm
+Step 11: Click on link home -> Navigate to page ''
+Step 12: Take full page screenshot as checkpoint
 ",High
+2,Verify Checkout Process with Multiple Items in Cart,"Navigate to product page, add multiple items to cart, proceed to checkout, provide address and payment details, and confirm the order.","Step 1: Navigate to /
+Step 2: Click on link clawHammer1148 -> Navigate to page 'product/*'
+Step 3: Click on link categories
+Step 4: Click on link categoryPowerTools -> Navigate to page 'category/*'
+Step 5: Click on link product01J0Hx284Fg34Ffzf5353Nybxz -> Navigate to page 'product/*'
+Step 6: Click on button addToCart
+Step 7: Click on link navCart -> Navigate to page 'checkout'
+Step 8: Click on button proceed1
+Step 9: Login
+Step 10: Provide address details for processing
+	- Step 1: Click on button proceed2
+	- Step 2: Click on input address
+	- Step 3: Enter input value in input address
+	- Step 4: Click on input city
+	- Step 5: Enter input value in input city
+	- Step 6: Click on input state
+	- Step 7: Enter input value in input state
+	- Step 8: Click on input country
+	- Step 9: Enter input value in input country
+	- Step 10: Click on input postcode
+	- Step 11: Enter input value in input postcode
+Step 11: Select payment method and enter payment details
+	- Step 1: Click on button proceedToCheckout
+	- Step 2: Click on dropdown paymentMethod
+	- Step 3: Click on input bankName
+	- Step 4: Enter input value in input bankName
+	- Step 5: Click on input accountName
+	- Step 6: Enter input value in input accountName
+	- Step 7: Click on input accountNumber
+	- Step 8: Enter input value in input accountNumber
+Step 12: Click on button confirm
+Step 13: Click on button confirm
+Step 14: Click on link home -> Navigate to page ''
+Step 15: Take full page screenshot as checkpoint
+",Medium
+3,Contact Form Submission,"Navigate to contact page, fill and submit contact form, and verify successful submission.","Step 1: Login -> Navigate to page '/'
+Step 2: Navigate to /
+Step 3: Click on link navContact
+Step 4: Fill contact form and submit
+	- Step 1: Click on input firstName
+	- Step 2: Enter input value in input firstName
+	- Step 3: Click on input lastName
+	- Step 4: Enter input value in input lastName
+	- Step 5: Click on input email
+	- Step 6: Enter input value in input email
+	- Step 7: Click on dropdown subject
+	- Step 8: Click on textarea message
+	- Step 9: Enter input value in textarea message
+	- Step 10: Click on button contactSubmit
+Step 5: Take full page screenshot as checkpoint
+",Medium
+4,Navigate and Add Item to Cart with Contact Form Submission,"Navigate through pages, add item to cart, submit contact form, and verify successful submission.","Step 1: Login -> Navigate to page '/'
+Step 2: Navigate to /
+Step 3: Click on link pageItem2
+Step 4: Click on link pageItem2
+Step 5: Click on link clawHammer1148 -> Navigate to page 'product/*'
+Step 6: Click on button addToCart
+Step 7: Click on link navContact
+Step 8: Fill contact form and submit
+	- Step 1: Click on input firstName
+	- Step 2: Enter input value in input firstName
+	- Step 3: Click on input lastName
+	- Step 4: Enter input value in input lastName
+	- Step 5: Click on input email
+	- Step 6: Enter input value in input email
+	- Step 7: Click on dropdown subject
+	- Step 8: Click on textarea message
+	- Step 9: Enter input value in textarea message
+	- Step 10: Click on button contactSubmit
+Step 9: Take full page screenshot as checkpoint
+",Medium
+5,Verify Checkout Process with Slider Interaction,"Interact with sliders, add item to cart, proceed to checkout, provide address and payment details, and confirm the order.","Step 1: Navigate to /
+Step 2: Click on span sliderBar
+Step 3: Click on span sliderBar
+Step 4: Click on ngx slider
+Step 5: Click on ngx slider
+Step 6: Click on ngx slider
+Step 7: Click on span sliderBar
+Step 8: Click on link clawHammer1148 -> Navigate to page 'product/*'
+Step 9: Click on button addToCart
+Step 10: Click on link navCart -> Navigate to page 'checkout'
+Step 11: Click on button proceed1
+Step 12: Login
+Step 13: Provide address details for processing
+	- Step 1: Click on button proceed2
+	- Step 2: Click on input address
+	- Step 3: Enter input value in input address
+	- Step 4: Click on input city
+	- Step 5: Enter input value in input city
+	- Step 6: Click on input state
+	- Step 7: Enter input value in input state
+	- Step 8: Click on input country
+	- Step 9: Enter input value in input country
+	- Step 10: Click on input postcode
+	- Step 11: Enter input value in input postcode
+Step 14: Select payment method and enter payment details
+	- Step 1: Click on button proceedToCheckout
+	- Step 2: Click on dropdown paymentMethod
+	- Step 3: Click on input bankName
+	- Step 4: Enter input value in input bankName
+	- Step 5: Click on input accountName
+	- Step 6: Enter input value in input accountName
+	- Step 7: Click on input accountNumber
+	- Step 8: Enter input value in input accountNumber
+Step 15: Click on button confirm
+Step 16: Click on button confirm
+Step 17: Click on link home -> Navigate to page ''
+Step 18: Take full page screenshot as checkpoint
+",Medium
+6,Verify Checkout Process with Rental Item,"Add rental item to cart, proceed to checkout, provide address and payment details, and confirm the order.","Step 1: Navigate to /
+Step 2: Click on link clawHammer1148 -> Navigate to page 'product/*'
+Step 3: Click on button addToCart
+Step 4: Click on link categories
+Step 5: Click on link navRentals -> Navigate to page 'rentals'
+Step 6: Click on image crane -> Navigate to page 'product/*'
+Step 7: Click on span ngxSlider3
+Step 8: Click on button addToCart
+Step 9: Click on link navCart -> Navigate to page 'checkout'
+Step 10: Click on button proceed1
+Step 11: Login
+Step 12: Provide address details for processing
+	- Step 1: Click on button proceed2
+	- Step 2: Click on input address
+	- Step 3: Enter input value in input address
+	- Step 4: Click on input city
+	- Step 5: Enter input value in input city
+	- Step 6: Click on input state
+	- Step 7: Enter input value in input state
+	- Step 8: Click on input country
+	- Step 9: Enter input value in input country
+	- Step 10: Click on input postcode
+	- Step 11: Enter input value in input postcode
+Step 13: Select payment method and enter payment details
+	- Step 1: Click on button proceedToCheckout
+	- Step 2: Click on dropdown paymentMethod
+	- Step 3: Click on input bankName
+	- Step 4: Enter input value in input bankName
+	- Step 5: Click on input accountName
+	- Step 6: Enter input value in input accountName
+	- Step 7: Click on input accountNumber
+	- Step 8: Enter input value in input accountNumber
+Step 14: Click on button confirm
+Step 15: Click on button confirm -> Navigate to page ''
+Step 16: Take full page screenshot as checkpoint
+",Medium
+7,Verify Checkout Process with Quantity Input,"Add item to cart, input quantity, proceed to checkout, provide address and payment details, and confirm the order.","Step 1: Navigate to /
+Step 2: Click on span sliderBar
+Step 3: Click on link clawHammer1148 -> Navigate to page 'product/*'
+Step 4: Click on button addToCart
+Step 5: Click on link navCart -> Navigate to page 'checkout'
+Step 6: Click on tr object
+Step 7: Enter input value in input quantityForDrawerTool
+Step 8: Click on td cell1
+Step 9: Click on button proceed1
+Step 10: Login
+Step 11: Provide address details for processing
+	- Step 1: Click on button proceed2
+	- Step 2: Click on input address
+	- Step 3: Enter input value in input address
+	- Step 4: Click on input city
+	- Step 5: Enter input value in input city
+	- Step 6: Click on input state
+	- Step 7: Enter input value in input state
+	- Step 8: Click on input country
+	- Step 9: Enter input value in input country
+	- Step 10: Click on input postcode
+	- Step 11: Enter input value in input postcode
+Step 12: Select payment method and enter payment details
+	- Step 1: Click on button proceedToCheckout
+	- Step 2: Click on dropdown paymentMethod
+	- Step 3: Click on input bankName
+	- Step 4: Enter input value in input bankName
+	- Step 5: Click on input accountName
+	- Step 6: Enter input value in input accountName
+	- Step 7: Click on input accountNumber
+	- Step 8: Enter input value in input accountNumber
+Step 13: Click on button confirm
+Step 14: Click on button confirm
+Step 15: Click on link home -> Navigate to page ''
+Step 16: Take full page screenshot as checkpoint
+",Medium
+8,Verify Checkout Process with Quantity Increase,"Increase item quantity, add item to cart, proceed to checkout, provide address and payment details, and confirm the order.","Step 1: Navigate to /
+Step 2: Click on link clawHammer1148 -> Navigate to page 'product/*'
+Step 3: Click on button increaseQuantity
+Step 4: Click on button addToCart
+Step 5: Click on link home -> Navigate to page '/'
+Step 6: Click on select formSelect
+Step 7: Click on link clawHammer1148 -> Navigate to page 'product/*'
+Step 8: Click on button addToCart
+Step 9: Click on link navCart -> Navigate to page 'checkout'
+Step 10: Click on link table1
+Step 11: Click on button proceed1
+Step 12: Login
+Step 13: Provide address details for processing
+	- Step 1: Click on button proceed2
+	- Step 2: Click on input address
+	- Step 3: Enter input value in input address
+	- Step 4: Click on input city
+	- Step 5: Enter input value in input city
+	- Step 6: Click on input state
+	- Step 7: Enter input value in input state
+	- Step 8: Click on input country
+	- Step 9: Enter input value in input country
+	- Step 10: Click on input postcode
+	- Step 11: Enter input value in input postcode
+Step 14: Select payment method and enter payment details
+	- Step 1: Click on button proceedToCheckout
+	- Step 2: Click on dropdown paymentMethod
+	- Step 3: Click on input bankName
+	- Step 4: Enter input value in input bankName
+	- Step 5: Click on input accountName
+	- Step 6: Enter input value in input accountName
+	- Step 7: Click on input accountNumber
+	- Step 8: Enter input value in input accountNumber
+Step 15: Click on button confirm
+Step 16: Click on button confirm
+Step 17: Click on link layer1 -> Navigate to page ''
+Step 18: Take full page screenshot as checkpoint
+",Medium
+9,Navigate and Add Multiple Items to Cart with Contact Form Submission,"Navigate through pages, add multiple items to cart, submit contact form, and verify successful submission.","Step 1: Login -> Navigate to page '/'
+Step 2: Navigate to /
+Step 3: Click on link pageItem2
+Step 4: Click on link pageItem2
+Step 5: Click on link pageItem2
+Step 6: Click on link clawHammer1148 -> Navigate to page 'product/*'
+Step 7: Click on button addToCart
+Step 8: Click on link categories
+Step 9: Click on link categoryPowerTools -> Navigate to page 'category/*'
+Step 10: Click on link navCategories
+Step 11: Click on link handTools
+Step 12: Click on link product01J0Hx284Fg34Ffzf5353Nybxz -> Navigate to page 'product/*'
+Step 13: Click on button addToCart
+Step 14: Click on link navContact
+Step 15: Fill contact form and submit
+	- Step 1: Click on input firstName
+	- Step 2: Enter input value in input firstName
+	- Step 3: Click on input lastName
+	- Step 4: Enter input value in input lastName
+	- Step 5: Click on input email
+	- Step 6: Enter input value in input email
+	- Step 7: Click on dropdown subject
+	- Step 8: Click on textarea message
+	- Step 9: Enter input value in textarea message
+	- Step 10: Click on button contactSubmit
+Step 16: Take full page screenshot as checkpoint
+",Medium
+10,Navigate and Select Category with Form Interaction,"Navigate through pages, select category using form interaction, and verify successful navigation.","Step 1: Login -> Navigate to page '/'
+Step 2: Navigate to /
+Step 3: Click on input categoryId01J0Hx282Jwg9Y0693X8Kp8S20
+Step 4: Click on input categoryId01J0Hx282Jwg9Y0693X8Kp8S20
+Step 5: Click on input categoryId01J0Hx282Jwg9Y0693X8Kp8S20
+Step 6: Click on input categoryId01J0Hx282F755Q4Vw9Ty57Za9S
+Step 7: Click on link pageItem2
+Step 8: Click on select formSelect
+Step 9: Click on link pageItem2 -> Navigate to page ''
+Step 10: Take full page screenshot as checkpoint
+",Medium
